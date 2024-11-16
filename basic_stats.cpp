@@ -53,5 +53,7 @@ struct items
     int set_pieceamount;
     bool set_bonus2;
     bool set_bonus4;
+    std::string set_bonus2desc;
+    std::string set_bonus4desc;
 };
 
