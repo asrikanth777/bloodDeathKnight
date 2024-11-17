@@ -51,6 +51,10 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp) {
 int main() {
     // Building the request with libcurl to handle HTTP requests
 
+    // the "username" and "password" to use the client that pulls my character data
+    string clientID = "2b9689144d51429f8322b860870d6547";
+    string clientSECRET = "qdujUTCiyHIZMxa8qSh216azvOxtSo8k";
+
     CURL* curl; //pointer to curl object that libcurl uses for the http request
     /*  CURL = data structure that holds info about the request
         CURL* = pointer that gives location of that data structure
@@ -64,7 +68,20 @@ int main() {
     string readBuffer; //stores response data received from server request
 
     curl_global_init(CURL_GLOBAL_DEFAULT); 
-    /* INI
-    */
+    //  global_init() allows libcurl to be used globally in the program
+    //  global_default sets up the normal settings for libcurl's resources to be used
+    
+    curl = curl_easy_init();
+    // sets up CURL object to store information from the HTTP request, like getting a bucket before turning on the faucet
+
+    if (curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, "https://us.battle.net/oauth/token");
+        /*
+        curl -> where information will be stored for handling the http request
+        CURLOPT_URL -> the option of request we are using, which is a url
+        https://.... -> the URL we are accessing, which is the OAuth token endpoint provided by blizzard to get an access token
+        */
+        
+    }
     return 0;   
 }
