@@ -75,12 +75,54 @@ int main() {
     // sets up CURL object to store information from the HTTP request, like getting a bucket before turning on the faucet
 
     if (curl) {
+        // this is to setup URL we are reaching to
         curl_easy_setopt(curl, CURLOPT_URL, "https://us.battle.net/oauth/token");
         /*
         curl -> where information will be stored for handling the http request
         CURLOPT_URL -> the option of request we are using, which is a url
         https://.... -> the URL we are accessing, which is the OAuth token endpoint provided by blizzard to get an access token
         */
+
+
+
+        // here we set up our headers, prompting the server about what we are asking for
+        struct curl_slist* headers = NULL;
+        headers = curl_slist_append(headers, "Content-Type: application/x-www-form-urlencoded");
+        /* this is like sending an email to the server
+        curl_slist is like the subject of the email, and the headers variable is like the box that you write in, the subject line (points to it).
+        we then start writing bits of our subject line (appending to curl_slist through headers)
+        */
+        curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+        // so now that we have our completed header, we are telling libcurl that here is our header that we custom wrote, which var headers points to  
+
+
+
+        // now we set up the body of our message, with our credentials to obtain access token  
+        string POSTfields = "grant_type=client_credentials&client_id=" + clientID + "&client_secret" + clientSECRET;
+        // this is setting up the request we are sending, the exact client, and the "password for it"
+        // its like showing an invitation at the door, with the party address, and our name
+
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, POSTfields.c_str()); // c_str just makes it from c++ string (std::string) to const char*
+
+
+
+        // set the callback function to handle response
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
+        /*  1st part passes data received to the WriteCallback(), which breaks down the info received accordingly
+            2nd part shows where the newly processed data should go to, which is readBuffer
+
+            this is so that when data comes in streams, the chunks are appended accordingly, almost like making nachos
+            you have ur chips first, then sauce, then topppings, and then the product is then handed to you */
+
+        
+
+        res = curl_easy_perform(curl);
+        
+
+        
+        
+               
         
     }
     return 0;   
