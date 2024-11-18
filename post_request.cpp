@@ -63,7 +63,7 @@ int main() {
     CURLcode  res; //enum to represent outcomes of libcurl function call, like return 0
     /* res is variable that stores request's result, and its value indicates of execution
     was successful
-    CURLE_OK (request worked), everything else means it failed 
+    CURLE_OK (request worked), anything else means it failed 
     */
     string readBuffer; //stores response data received from server request
 
@@ -118,12 +118,22 @@ int main() {
         
 
         res = curl_easy_perform(curl);
-        
+        // handles the actual execution of requesting info from the url given and sending data
+        // the response it gets indicates whether it was successful or not
 
+        if (res != CURLE_OK) {
+            cerr << "Request failed: " << curl_easy_strerror(res) << endl; //converts teh CURLcode enum value to a readable error message
+        } else {
+            cout << "Response: " << readBuffer << endl; 
+        }
+
+        // Clean up
         
-        
-               
-        
+        curl_easy_cleanup(curl);
+        // frees up the resources that curl used, making that memory reusable
+        curl_global_cleanup();
+        // does the same thing, but cleans up the resources globally, and anything outside of the initial request
+
     }
     return 0;   
 }
