@@ -4,3 +4,10 @@ November 15, 2024
 - Understand how to call that information
 
 - Figure out how to structure program/ what to do first
+
+November 18, 2024
+- I have finished the POST request file and it gets information about the access token, more specifically it gives 
+    + access_token : the token code
+    + token_type : bearer
+    + expires_in : 24hrs - 1 second
+    + sub: client ID

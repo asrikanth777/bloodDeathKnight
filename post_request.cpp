@@ -2,6 +2,9 @@
 #include <string>
 #include <curl/curl.h>
 
+//this is to save access token info so it doesnt have to be copy pasted
+#include <fstream>
+
 /*
 this is to automate the part that accesses my application to get
 an access token that helps me receive data about my character
