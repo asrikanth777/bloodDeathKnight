@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 #include <curl/curl.h>
+#include "json.hpp"
+using json = nlohmann::json;
+
 
 //this is to save access token info so it doesnt have to be copy pasted
 #include <fstream>
@@ -128,6 +131,27 @@ int main() {
             cerr << "Request failed: " << curl_easy_strerror(res) << endl; //converts teh CURLcode enum value to a readable error message
         } else {
             cout << "Response: " << readBuffer << endl; 
+
+            //Parsing through response to get the access token to put into text file
+            // ADD COMMENTARY TONIGHT!!!!!!
+            try {
+                json responseJson = json::parse(readBuffer);
+                string accessToken = responseJson["access_token"];
+
+                // now writing it into the file
+                ofstream tokenFile("accessTOKEN.txt");
+                if (tokenFile.is_open()) {
+                    tokenFile << accessToken;
+                    tokenFile.close();
+                    cout << "Access token has been saved to accessTOKEN.txt" << endl;
+                } else {
+                cerr << "Failed to open accessTOKEN.txt for writing." << endl;
+                }
+            } catch (json::parse_error& e) {
+                cerr << "Failed to parse response: " << e.what() << endl;
+            } catch (json::out_of_range& e) {
+                cerr << "Expected field not found in response: " << e.what() << endl;
+            } 
         }
 
         // Clean up

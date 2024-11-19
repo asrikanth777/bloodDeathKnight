@@ -11,3 +11,10 @@ November 18, 2024
     + token_type : bearer
     + expires_in : 24hrs - 1 second
     + sub: client ID
+
+- I could try just copy pasting what i get, but it would be cooler to automate it, so i parsing the response data for the access token and writing it into another file
+- then accessing that file in the accessTOKEN.cpp file
+
+November 19, 2024
+- I wrote the code so that it parses through response and puts the access token into a textfile that can be parsed through by another program to pull character data
+    + Now I just need to finish commentary and start figuring out how to parse respoinse in fetch character and pull data
