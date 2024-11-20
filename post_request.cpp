@@ -132,24 +132,33 @@ int main() {
         } else {
             cout << "Response: " << readBuffer << endl; 
 
-            //Parsing through response to get the access token to put into text file
+            // Parsing through response to get the access token to put into text file
             // ADD COMMENTARY TONIGHT!!!!!!
             try {
+                // turns the string response into a json object, making it easy to separate by field
                 json responseJson = json::parse(readBuffer);
                 string accessToken = responseJson["access_token"];
+                // pulls out the specific response in access_token and puts it into a string
 
-                // now writing it into the file
+
+
+                // creates a text file named accessTOKEN
                 ofstream tokenFile("accessTOKEN.txt");
+
+                // if the text file is open, then it is over written with accessToken and closed so it can be used later
                 if (tokenFile.is_open()) {
                     tokenFile << accessToken;
                     tokenFile.close();
                     cout << "Access token has been saved to accessTOKEN.txt" << endl;
                 } else {
-                cerr << "Failed to open accessTOKEN.txt for writing." << endl;
+                    // this is if the text file doesnt open or isn't created correctly
+                    cerr << "Failed to open accessTOKEN.txt for writing." << endl;
                 }
             } catch (json::parse_error& e) {
+                // triggers if readbuffer is not a valid response (like if it is giving an error response)
                 cerr << "Failed to parse response: " << e.what() << endl;
             } catch (json::out_of_range& e) {
+                // triggers if readbuffer doesn't have the access token
                 cerr << "Expected field not found in response: " << e.what() << endl;
             } 
         }
@@ -165,3 +174,6 @@ int main() {
     return 0;   
     // IT WORKS YESSSSSSSSSSS
 }
+
+// When compiling, dont forget to write libcurl
+// g++ -o post_request post_request.cpp -lcurl
