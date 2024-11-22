@@ -1,0 +1,108 @@
+this is the response data broken up by chatgpt so i can read it better
+
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar?namespace=profile-us"
+    }
+  },
+  "id": 240488936,
+  "name": "Purplenascar",
+  "gender": {
+    "type": "MALE",
+    "name": "Male"
+  },
+  "faction": {
+    "type": "ALLIANCE",
+    "name": "Alliance"
+  },
+  "race": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-11.0.5_56865-us"
+    },
+    "name": "Dwarf",
+    "id": 3
+  },
+  "character_class": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/playable-class/6?namespace=static-11.0.5_56865-us"
+    },
+    "name": "Death Knight",
+    "id": 6
+  },
+  "active_spec": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/playable-specialization/250?namespace=static-11.0.5_56865-us"
+    },
+    "name": "Blood",
+    "id": 250
+  },
+  "realm": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/realm/1566?namespace=dynamic-us"
+    },
+    "name": "Area 52",
+    "id": 1566,
+    "slug": "area-52"
+  },
+  "level": 80,
+  "experience": 0,
+  "achievement_points": 2970,
+  "achievements": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/achievements?namespace=profile-us"
+  },
+  "titles": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/titles?namespace=profile-us"
+  },
+  "pvp_summary": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/pvp-summary?namespace=profile-us"
+  },
+  "encounters": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/encounters?namespace=profile-us"
+  },
+  "media": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/character-media?namespace=profile-us"
+  },
+  "last_login_timestamp": 1732005068000,
+  "average_item_level": 600,
+  "equipped_item_level": 600,
+  "specializations": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/specializations?namespace=profile-us"
+  },
+  "statistics": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/statistics?namespace=profile-us"
+  },
+  "mythic_keystone_profile": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/mythic-keystone-profile?namespace=profile-us"
+  },
+  "equipment": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/equipment?namespace=profile-us"
+  },
+  "appearance": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/appearance?namespace=profile-us"
+  },
+  "collections": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/collections?namespace=profile-us"
+  },
+  "active_title": {
+    "key": {
+      "href": "https://us.api.blizzard.com/data/wow/title/568?namespace=static-11.0.5_56865-us"
+    },
+    "name": "Machine-Warden",
+    "id": 568,
+    "display_string": "{name}, Machine-Warden"
+  },
+  "reputations": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/reputations?namespace=profile-us"
+  },
+  "quests": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/quests?namespace=profile-us"
+  },
+  "achievements_statistics": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/achievements/statistics?namespace=profile-us"
+  },
+  "professions": {
+    "href": "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar/professions?namespace=profile-us"
+  },
+  "name_search": "Purplenascar"
+}
