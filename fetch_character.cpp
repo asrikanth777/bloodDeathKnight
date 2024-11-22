@@ -7,6 +7,7 @@ using namespace std;
 
 size_t ReturnTokenData(void* contents, size_t size, size_t nmemb, void* userp) {
     ((string*)userp) ->append((char*)contents, size * nmemb);
+    // cout << "Appending Data: " << string((char*)contents, size * nmemb) << endl;
     return size * nmemb;
 }
 
@@ -39,19 +40,36 @@ int main() {
 
     curlFetch = curl_easy_init();
     if (curlFetch) {
-        string playerURL =  "https://us.api.blizzard.com/profile/wow/character/area-52/Purplenascar"
-                            "?access_token=" + accesstoken;
+        string playerURL =  "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar?namespace=profile-us&locale=en_US";
+    
         curl_easy_setopt(curlFetch, CURLOPT_URL, playerURL.c_str());
+        cout << "Requesting URL: " << playerURL << endl;
+
+        struct curl_slist* fetchHeaders = NULL;
+        string authHeader = "Authorization: Bearer " + accesstoken;
+        fetchHeaders = curl_slist_append(fetchHeaders, authHeader.c_str());
+
+        curl_easy_setopt(curlFetch, CURLOPT_HTTPHEADER, fetchHeaders);
+
         curl_easy_setopt(curlFetch, CURLOPT_WRITEFUNCTION, ReturnTokenData);
         curl_easy_setopt(curlFetch, CURLOPT_WRITEDATA, &returnData);
 
         resFetch = curl_easy_perform(curlFetch);
+
+        long responseCode;
+        curl_easy_getinfo(curlFetch, CURLINFO_RESPONSE_CODE, &responseCode);
+        cout << "Response Code: " << responseCode << endl;
 
         if (resFetch != CURLE_OK) {
             cerr << "Request failed: " << curl_easy_strerror(resFetch) << endl;
         } else {
             cout << "Character Data: " << returnData << endl;
         }
+
+        /*figure out how to store character data*/
+
+        curl_easy_cleanup(curlFetch);
+        curl_global_cleanup();
 
 
     }

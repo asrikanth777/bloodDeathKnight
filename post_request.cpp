@@ -104,7 +104,7 @@ int main() {
 
 
         // now we set up the body of our message, with our credentials to obtain access token  
-        string POSTfields = "grant_type=client_credentials&client_id=" + clientID + "&client_secret=" + clientSECRET;
+        string POSTfields = "grant_type=client_credentials&scope=wow.profile&client_id=" + clientID + "&client_secret=" + clientSECRET;
         // this is setting up the request we are sending, the exact client, and the "password for it"
         // its like showing an invitation at the door, with the party address, and our name
 
