@@ -40,22 +40,28 @@ int main() {
 
     curlFetch = curl_easy_init();
     if (curlFetch) {
+
+        // creating URL
         string playerURL =  "https://us.api.blizzard.com/profile/wow/character/area-52/purplenascar?namespace=profile-us&locale=en_US";
-    
         curl_easy_setopt(curlFetch, CURLOPT_URL, playerURL.c_str());
         cout << "Requesting URL: " << playerURL << endl;
 
+
+        // designing headers
         struct curl_slist* fetchHeaders = NULL;
         string authHeader = "Authorization: Bearer " + accesstoken;
         fetchHeaders = curl_slist_append(fetchHeaders, authHeader.c_str());
-
         curl_easy_setopt(curlFetch, CURLOPT_HTTPHEADER, fetchHeaders);
 
+        // sends resopnse through tokendata function and sends that info to returnData
         curl_easy_setopt(curlFetch, CURLOPT_WRITEFUNCTION, ReturnTokenData);
         curl_easy_setopt(curlFetch, CURLOPT_WRITEDATA, &returnData);
 
+
+        // performs inquiry
         resFetch = curl_easy_perform(curlFetch);
 
+        // this is to handle diff response codes like 401 and 404
         long responseCode;
         curl_easy_getinfo(curlFetch, CURLINFO_RESPONSE_CODE, &responseCode);
         cout << "Response Code: " << responseCode << endl;
@@ -66,7 +72,7 @@ int main() {
             cout << "Character Data: " << returnData << endl;
         }
 
-        /*figure out how to store character data*/
+        /*figure out how to store character data here*/
 
         curl_easy_cleanup(curlFetch);
         curl_global_cleanup();
