@@ -2,7 +2,9 @@
 #include <string>
 #include <curl/curl.h>
 #include <fstream>
+#include "json.hpp"
 
+using json = nlohmann::json;
 using namespace std;
 
 size_t ReturnTokenData(void* contents, size_t size, size_t nmemb, void* userp) {
@@ -71,6 +73,23 @@ int main() {
         } else {
             cout << "Character Data: " << returnData << endl;
         }
+
+        // now to store the strings returned into a text file that can be parsed through later
+        try {
+            json returnJson = json::parse(returnData);
+
+            ofstream playerDataFile("playerDATA.txt");
+            if (playerDataFile.is_open()) {
+                playerDataFile << returnJson;
+                playerDataFile.close();
+                cout << "Player Data has been saved to playerDATA.txt" << endl;
+            } else {
+                cerr << "Failed to open playerDATA.txt for writing" << endl;
+            }
+        } catch (json::parse_error& e) {
+            cerr << "Failed to upload correctly. " << endl;
+        }
+
 
         /*figure out how to store character data here*/
 
