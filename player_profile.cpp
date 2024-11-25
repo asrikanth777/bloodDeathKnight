@@ -9,24 +9,19 @@ using json = nlohmann::json;
 using namespace std;
 
 int main() {
-    string playerDATApath = "playerDATA.txt";
-    stringstream playerDATAbuffer;
-    string playerDATAcontent;
+    string playerDATApath = "playerDATA.json";
     json playerData;
-
+ 
     ifstream playFile(playerDATApath);
     if (playFile.is_open()) {
-        playerDATAbuffer << playFile.rdbuf();
-        playerDATAcontent = playerDATAbuffer.str();
-        playFile.close();
+        try {
+            playFile >> playerData;
+            playFile.close();
+        } catch (json::parse_error& e) {
+            cerr << "return data JSON file parsing error" << e.what() << endl;
+        }
     } else {
-        cerr << "Error: Couldn't open file" << playerDATApath << endl;
-    }
-
-    try {
-        playerData = json::parse(playerDATAcontent);
-    } catch (json::parse_error& e) {
-        cerr << "JSON parsing error: " << e.what() << endl;
+        cerr << "Couldn't open API response data stored JSON file: " << playerDATApath << endl;
     }
 
     cout << "This is the the completed JSON object" << endl;
@@ -41,7 +36,7 @@ int main() {
     string  characterRealm = playerData["realm"]["name"];
     int     characterLevel = playerData["level"];
     int     characterAchievementPoints = playerData["achievement_points"];
-    int     characterItemLevel = playerData["equipped_item_level"]
+    int     characterItemLevel = playerData["equipped_item_level"];
 
 
 

@@ -18,3 +18,6 @@ November 18, 2024
 November 19, 2024
 - I wrote the code so that it parses through response and puts the access token into a textfile that can be parsed through by another program to pull character data
     + Now I just need to finish commentary and start figuring out how to parse respoinse in fetch character and pull data
+
+November 24, 2024
+- Now, we have to break down talents and item builds, cross analyze them with wowhead or icy veins, and look for differences in both builds

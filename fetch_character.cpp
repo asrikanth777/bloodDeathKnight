@@ -78,11 +78,11 @@ int main() {
         try {
             json returnJson = json::parse(returnData);
 
-            ofstream playerDataFile("playerDATA.txt");
+            ofstream playerDataFile("playerDATA.json");
             if (playerDataFile.is_open()) {
                 playerDataFile << returnJson;
                 playerDataFile.close();
-                cout << "Player Data has been saved to playerDATA.txt" << endl;
+                cout << "Player Data has been saved to playerDATA file" << endl;
             } else {
                 cerr << "Failed to open playerDATA.txt for writing" << endl;
             }
