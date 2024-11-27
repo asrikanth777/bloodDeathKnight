@@ -19,6 +19,7 @@ size_t FetchEquipmentData(void* contents, size_t size, size_t nmemb, void* userp
 int main() {
     string accesstoken;
     ifstream tokenFile("accessTOKEN.txt");
+    cout << "program is getting token" << endl;
 
     // if tokenfile is available, it takes the text in the file and writes it into accesstoken
     // the error code is self explanatory
@@ -31,6 +32,7 @@ int main() {
     }
 
     string playerDATApath = "playerDATA.json";
+    string englishLang = "&locale=en_US";
     json playerData;
  
     ifstream playFile(playerDATApath);
@@ -45,7 +47,9 @@ int main() {
         cerr << "Couldn't open API response data stored JSON file: " << playerDATApath << endl;
     }
 
-    string playerEquipmentURL = playerData["equpment"]["href"];
+    string playerEquipmentURL0 = playerData["equipment"]["href"];
+    string playerEquipmentURL = playerEquipmentURL0 + englishLang;
+    cout << "this is the completed URL: " << playerEquipmentURL << endl;
 
     CURL* curlEquip;
     CURLcode resEquip;
