@@ -21,3 +21,8 @@ November 19, 2024
 
 November 24, 2024
 - Now, we have to break down talents and item builds, cross analyze them with wowhead or icy veins, and look for differences in both builds
+
+November 27, 2024
+- Took a small gap to do other things and then came back to make sure what I did worked. All the code is currently working, but I have had to get rewritten responses by usikng the online API pull on Blizzard website.
+- Now its just left to parse through IcyVeins or U.GG BIS build, but i dont know if they have api access so that will take awhile to figure out.
+(they do not have api access, we might be cooked.....)
