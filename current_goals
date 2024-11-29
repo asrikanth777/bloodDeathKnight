@@ -28,5 +28,7 @@ November 27, 2024
 (they do not have api access, we might be cooked.....)
 
 November 28, 2024
-I tried to make a python environment that uses Selenium, Chromium, and ChromeDriver. Didn't figure it out. AFTER  7 HOURS!!! Decided im going to do an unconventional route
-using C++ and a lil bit of javascript, using Node.js and Playwright. hopefully it works out. Good thing my mom knows JavaScript like the back of her hand so it won't be too bad, and Kotlin knowledge might help a little, but I am going to be doing a lot of reading.
+- I tried to make a python environment that uses Selenium, Chromium, and ChromeDriver. Didn't figure it out. AFTER  7 HOURS!!! Decided im going to do an unconventional route using C++ and a lil bit of javascript, using Node.js and Playwright. hopefully it works out. Good thing my mom knows JavaScript like the back of her hand so it won't be too bad, and Kotlin knowledge might help a little, but I am going to be doing a lot of reading.
+
+November 28, 2024 pt2
+- I realized that i actually dont have to do any dynamic actions for the website wowhead, the default mythic+ talents show on their own, so I am takign the easy way out and just using C++ and libraries to process this. this will be a nice and i dont have to learn JS anymore.
