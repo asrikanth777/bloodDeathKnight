@@ -26,3 +26,7 @@ November 27, 2024
 - Took a small gap to do other things and then came back to make sure what I did worked. All the code is currently working, but I have had to get rewritten responses by usikng the online API pull on Blizzard website.
 - Now its just left to parse through IcyVeins or U.GG BIS build, but i dont know if they have api access so that will take awhile to figure out.
 (they do not have api access, we might be cooked.....)
+
+November 28, 2024
+I tried to make a python environment that uses Selenium, Chromium, and ChromeDriver. Didn't figure it out. AFTER  7 HOURS!!! Decided im going to do an unconventional route
+using C++ and a lil bit of javascript, using Node.js and Playwright. hopefully it works out. Good thing my mom knows JavaScript like the back of her hand so it won't be too bad, and Kotlin knowledge might help a little, but I am going to be doing a lot of reading.
