@@ -2,15 +2,22 @@
 #include <string>
 #include <curl/curl.h>
 #include "json.hpp"
-using json = nlohmann::json;
 #include <fstream>
+#include <gumbo.h>
+#include <map>
+#include <vector>
+#include <utility>
+
+
 using namespace std;
+using json = nlohmann::json;
 
 size_t ReturnOptimalTalentData(void* contents, size_t size, size_t nmemb, void* userp) {
     ((string*)userp) ->append((char*)contents, size * nmemb);
     // cout << "Appending Data: " << string((char*)contents, size * nmemb) << endl;
     return size * nmemb;
 }
+
 
 int main() {
     CURL* curlOptimalTalent;
@@ -51,6 +58,8 @@ int main() {
         curl_global_cleanup();
 
     }
+
+    
 
     return 0;
 }
