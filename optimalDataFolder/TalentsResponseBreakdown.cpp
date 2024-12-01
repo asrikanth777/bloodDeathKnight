@@ -28,9 +28,14 @@ void parseTalentBuilds(const string& talentHTML) {
     // smatch is class used to store matches from regex search in a string format
 
     string::const_iterator searchStart(talentHTML.cbegin());
+    // read-only iterator that goes through talentHTML string and tracks position while iterating
 
-    
     string currentTitle = "Untitled Build"; 
+
+    // NEED TO FINISH THE REST
+    // first parse through and find titles
+    // then find export strings connected to those titles
+
 }
 
 
@@ -38,7 +43,7 @@ void parseTalentBuilds(const string& talentHTML) {
 int main() {
     ifstream talentHTMLfile("optimalTalent.html");
     if (talentHTMLfile.is_open()) {
-        string talentHTML ((istreambuf_iterator<char>(talentHTMLfile)), istreambuf_iterator<char>());
+        string talentHTMLstring ((istreambuf_iterator<char>(talentHTMLfile)), istreambuf_iterator<char>());
         /*  first part reads the file content as a sequence of characters,
             the second part means that it reaches the end, or reads the entire file
         */
