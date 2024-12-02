@@ -31,19 +31,19 @@ int main() {
     while (getline(talentHTMLfile, htmlLine)) {
         if (htmlLine.find("WH.markup.printHtml") != string::npos) {
             cout << "found line" << endl;
-            // regex talentRegex("\\[copy=\\\\\"[^\"]*\"\\][A-Za-z0-9]+\\[\\\\/copy\\]"); this one works, but it is not capturing contents
-            regex talentRegex("\\[copy=\\\"([^\\\"]+)\\\"\\]([A-Za-z0-9]+)\\[\\/copy\\]");
+            regex talentRegex("\\[copy=\\\\\"([^\"]*)\\\\\"\\]([A-Za-z0-9]+)\\[\\\\/copy\\]"); 
             smatch matches;
 
 
-            if (regex_search(htmlLine, matches, talentRegex)) {
+            for (sregex_iterator it(htmlLine.begin(), htmlLine.end(), talentRegex), end; it != end; ++it) {
                 matchCount++;
-                cout << matches[0] << endl;
-                cout << typeid(matches[0]).name() << endl;
-                cout << matches[1] << endl;
-                cout << matches[2] << endl;
-                string talent_title = matches[1];
-                string export_string = matches[2];
+
+                cout << it->str(0) << endl;    // Full match
+                cout << it->str(1) << endl;    // Capture group 1 (talent title)
+                cout << it->str(2) << endl;    // Capture group 2 (export string)
+
+                string talent_title = it->str(1);
+                string export_string = it->str(2);
 
                 talentTitles.push_back(talent_title);
                 exportStrings.push_back(export_string);
@@ -55,7 +55,7 @@ int main() {
         }
     }
 
-    cout << "match count" << matchCount << endl;
+    cout << "match count: " << matchCount << endl;
     
 
     return 0;
