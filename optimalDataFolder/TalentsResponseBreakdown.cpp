@@ -55,7 +55,20 @@ int main() {
         }
     }
 
+    int overwriteCounter = 0;
     cout << "match count: " << matchCount << endl;
+    ofstream talentBuildSheet("talent_builds.txt");
+    if (talentBuildSheet.is_open()){
+        talentBuildSheet << "updated talents" << endl;
+        for (overwriteCounter =0; overwriteCounter < matchCount; overwriteCounter++) {
+            talentBuildSheet << talentTitles[overwriteCounter] << " : " << exportStrings[overwriteCounter] << endl;
+        }
+        talentBuildSheet.close();
+        cout << "Talent Builds are uploaded to talent_builds.txt" << endl;
+    } else {
+        cerr << "Failed to open talent_builds.txt for writing" << endl;
+    }
+    
     
 
     return 0;
