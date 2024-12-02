@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <script>var _sf_startpt=(new Date()).getTime();</script>
+    <title>Best Blood Death Knight Talent Tree Builds - The War Within 11.0.5 - Wowhead</title>
+
+    <meta name="description" content="Find the best talents for your Blood Death Knight in WoW The War Within. Pick your ideal talent tree and export directly to the game!">
+
+    <meta name="google-site-verification" content="SScjPPnjqJ0lGTlZeVs9x0D3_jmctKZ-6nE4cvfGL00">
+    <meta property="twitter:title" content="Best Blood Death Knight Talent Tree Builds - The War Within 11.0.5">
+    <meta property="twitter:image" content="https://wow.zamimg.com/uploads/guide/seo/3128.jpg?1478741744">
+    <meta property="twitter:imageUrl" content="https://wow.zamimg.com/uploads/guide/seo/3128.jpg?1478741744">
+    <meta property="twitter:image:height" content="480">
+    <meta property="twitter:image:width" content="960">
+    <meta property="twitter:site:id" content="17258481">
+    <meta property="twitter:site" content="@Wowhead">
+    <meta property="twitter:domain" content="wowhead.com">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:description" content="Find the best talents for your Blood Death Knight in WoW The War Within. Pick your ideal talent tree and export directly to the game!">
+    <meta property="twitter:image:alt" content="Find the best talents for your Blood Death Knight in WoW The War Within. Pick your ideal talent tree and export directly to the game!">
+    <meta property="og:title" content="Best Blood Death Knight Talent Tree Builds - The War Within 11.0.5">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://wow.zamimg.com/uploads/guide/seo/3128.jpg?1478741744">
+    <meta property="og:site_name" content="Wowhead">
+    <meta property="og:url" content="https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank">
+    <meta property="og:description" content="Find the best talents for your Blood Death Knight in WoW The War Within. Pick your ideal talent tree and export directly to the game!">
+    <meta property="fb:pages" content="169121139638">
+    <meta name="parsely-tags" content="Category: Classes, Top Category: Classes, Game: World of Warcraft, Game Tree: Retail, Game Env: Live">
+    <link rel="canonical" href="https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="en" href="https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="fr" href="https://www.wowhead.com/fr/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="de" href="https://www.wowhead.com/de/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="es" href="https://www.wowhead.com/es/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="ru" href="https://www.wowhead.com/ru/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="pt" href="https://www.wowhead.com/pt/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="it" href="https://www.wowhead.com/it/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="zh" href="https://www.wowhead.com/cn/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="alternate" hreflang="ko" href="https://www.wowhead.com/ko/guide/classes/death-knight/blood/talent-builds-pve-tank">
+        <link rel="search" type="application/opensearchdescription+xml" href="https://www.wowhead.com/opensearch/description?v=3"
+          title="Wowhead">
+    <link rel="icon" type="image/png" href="https://wow.zamimg.com/images/logos/favicon-live.png">
+    <link rel="apple-touch-icon-precomposed" href="https://wow.zamimg.com/apple-touch-icon.png">
+
+
+    <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.wowhead.com\/guide\/classes\/death-knight\/blood\/talent-builds-pve-tank"},"name":"Wowhead","url":"https:\/\/www.wowhead.com\/guide\/classes\/death-knight\/blood\/talent-builds-pve-tank","logo":"https:\/\/wow.zamimg.com\/images\/logos\/wh-logo.png","publisher":{"@type":"Organization","name":"Wowhead Logo","logo":{"@type":"ImageObject","url":"https:\/\/wow.zamimg.com\/images\/logos\/amp-valid.png","width":395,"height":60}},"headline":"Best Blood Death Knight Talent Tree Builds - The War Within 11.0.5","articleSection":"Retail","datePublished":"2015-03-11T18:36:18-05:00","dateModified":"2024-10-30T14:58:10-05:00","author":{"@type":"Person","name":"Mandl"},"description":"Find the best talents for your Blood Death Knight in WoW The War Within. Pick your ideal talent tree and export directly to the game!","image":{"@type":"ImageObject","url":"https:\/\/wow.zamimg.com\/uploads\/guide\/seo\/3128.jpg?1478741744","height":480,"width":960}}</script>
+
+
+<script>
+function cdnErrorHandler(type) {
+    let url = "\/error-static-cdn?hash=ff42d64daa&at=1733099195&redirect=1" + '&type=' + encodeURIComponent(type);
+    if (location.hash.length > 1) {
+        url += '&hash=' + encodeURIComponent(location.hash.substr(1));
+    }
+    location.href = url;
+}
+</script><link rel="stylesheet" type="text/css" href="https://wow.zamimg.com/css/standard/universal.css?ff42d64daa" onerror="cdnErrorHandler(&quot;css&quot;);">
+<link rel="stylesheet" type="text/css" href="https://wow.zamimg.com/css/standard/global.css?ff42d64daa">
+<link rel="stylesheet" type="text/css" href="https://wow.zamimg.com/css/standard/pages/forums.css?ff42d64daa">
+<link rel="stylesheet" type="text/css" href="https://wow.zamimg.com/css/standard/pages/article.css?ff42d64daa">
+<link rel="stylesheet" type="text/css" href="https://wow.zamimg.com/css/standard/pages/guide/view.css?ff42d64daa">
+<link rel="stylesheet" type="text/css" href="https://wow.zamimg.com/css/standard/pages/guide/class.css?ff42d64daa">
+<script src="https://wow.zamimg.com/js/preamble.js?ff42d64daa" onerror="cdnErrorHandler(&quot;js&quot;);"></script>
+    <script>
+        g_user = {"id":0,"name":"","roles":0,"permissions":0,"ads":true,"canDeleteComments":false};
+    </script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="11986010-b318-46fd-ab82-e05142e195e2" data-ignore-ga="true"></script><script>function OptanonWrapper() {}</script>
+
+
+<script type="application/json" id="data.pageMeta">{"activeDbChanged":{"1":1732757985,"2":1732665473,"4":1732676457,"5":1689741109,"6":1724354645,"7":1732734105,"8":1711418938,"9":1732567854,"10":1729562810,"11":1731569035},"anonymousSubdomain":"nether","dataEnv":{"active":{"ptr":true,"ptr2":true,"beta":false,"d4ptr":false,"d4beta":false},"env":1,"tree":1,"versions":{"1":"11.0.5","2":"11.0.7","3":"11.0.2","4":"1.15.5","5":"2.5.4","6":"2.6","7":"1.8.2","8":"3.4.3","9":"2.0.5","10":"11.0.5","11":"4.4.1","12":"2.0.1","13":"2.0.1"},"phases":{"4":6,"8":null,"11":null}},"dev":false,"envDomain":"wowhead.com","hasSidebar":true,"logo":"live","page":"guide","scriptVersionQueryString":"ff42d64daa","serverTime":"2024-12-01T18:26:35-06:00","staticResizing":{"limit":3000,"throttle":{"start":3000,"percent":0}},"staticUrl":"https:\/\/wow.zamimg.com","theme":"standard","wowhead":true,"availableDataEnvs":[1,2,4,5,6,7,8,9,10,11],"restrictedDataEnvs":[],"restrictedEntities":[],"disabledInTrees":[4,5,6,7,8,9,11]}</script>
+<script type="application/json" id="data.notifications.public-key">"BCv9I9cvqAYEi2ddxSOqAbkm8KTL-CNlIGmXk8R7ievkXR7QfBrNtkXQqk73vleylt5MlZQ8jFQ-tEQ_ObVxxMI"</script>
+<script type="application/json" id="data.guide.author">"Mandl"</script>
+<script type="application/json" id="data.page.urlArticles">[]</script>
+
+<script src="https://wow.zamimg.com/js/3rd-party/jquery.2.1.3.min.js?ff42d64daa"></script>
+<script src="https://wow.zamimg.com/js/tooltips.js?ff42d64daa"></script>
+<script src="https://wow.zamimg.com/global-strings/live.enus.js?hash=9_lMl80KF71u4ixqC67ltA"></script>
+<script src="https://nether.wowhead.com/menus/root?hash=72d6abf881b988390856e08e66d4e79a"></script>
+<script src="https://nether.wowhead.com/menus?hash=72d6abf881b988390856e08e66d4e79a" async=""></script>
+<script src="https://wow.zamimg.com/js/locale/terms/enus.js?ff42d64daa"></script>
+<script src="https://nether.wowhead.com/data/global?dv=70&amp;db=1732757985&amp;versionsSig=34e50dc4b7e51846e56e678e97a7327b"></script>
+<script src="https://wow.zamimg.com/js/global.js?ff42d64daa"></script>
+<script src="https://wow.zamimg.com/js/react/bundle.js?ff42d64daa"></script>
+<script src="https://wow.zamimg.com/js/WH/Page/Guide.js?ff42d64daa"></script>
+
+<script>
+WH.Track.gaInit();
+</script>
+    <script>
+        window.PARSELY = window.PARSELY || {
+            autotrack: false,
+            onReady: function() {
+                PARSELY.updateDefaults({
+                    data: {"isLoggedIn":false,"tier":"Free"}                });
+                PARSELY.beacon.trackPageView();
+            }
+        };
+    </script>
+    <script id="parsely-cfg" src="https://cdn.parsely.com/keys/wowhead.com/p.js" async="" defer=""></script><script>
+    (function(h,o,u,n,d) {
+        h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+        d=o.createElement(u);d.async=1;d.src=n
+        n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+    })(window,document,'script','https://www.datadoghq-browser-agent.com/us5/v5/datadog-rum.js','DD_RUM')
+    window.DD_RUM.onReady(function() {
+        window.DD_RUM.init({"clientToken":"pub983d2b36ec5246e30991ebd4b6dccaaa","applicationId":"f2771e64-a11a-4ddd-a6ab-08e7e43d6e6b","site":"us5.datadoghq.com","service":"wh-site","env":"prod","sessionSampleRate":0.03,"sessionReplaySampleRate":0,"trackUserInteractions":true,"trackResources":true,"trackLongTasks":true,"defaultPrivacyLevel":"mask-user-input","version":"ff42d64daa"});
+    })
+</script>
+<script>WH.WAS.init({"channelGroup":"Guides","channelName":"Guide","dataEnv":"Live","dataTree":"Retail","entityType":"Guide","game":"WoW","universe":"Warcraft"}, ["horizontal","skin","vertical"]);</script>
+
+
+
+</head>
+
+<body class="standard-layout has-toc locale-0 has-ads">
+<script>document.dispatchEvent(new CustomEvent('bodyAvailable'))</script>
+<noscript>
+    <div id="noscript-wrapper">
+        <div id="noscript-text">
+            <b>This site makes extensive use of JavaScript.</b><br>
+            Please enable JavaScript in your browser.        </div>
+    </div>
+</noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KN7HXDF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+    WH.Layout.initPageState(0, null);
+    Menu.processExtraInstructions();
+</script>
+<div class="skin-block-bg is-atf" data-was-parent="true">
+    <div id="ad-skin" data-was-unit="true" class="banner-ad">
+        <script>WH.WAS.validateUnit("ad-skin");</script>
+    </div>
+</div>
+
+    
+<div class="header-wrapper" role="banner">
+<div class="header">
+    <div id="data-tree-switcher">
+        <script>WH.Layout.DataTreeSwitcher.init();</script>
+    </div>
+
+    <div class="header-left">
+        <a href="/wow/retail" class="header-logo" aria-label="Home"></a>
+    </div>
+
+    <div class="header-right">
+        <div class="header-search">
+            <form action="/search"><input type="text" name="q"
+                                          aria-labelledby="header-search-button"
+                                          placeholder="Search guides, news, database…"
+                                          value="">
+            </form>
+        </div>
+        <div class="data-env-links">
+    <div class="data-env-links-group"><a class="data-env-link current" data-env="live" data-whattach="true" title="Currently viewing the Live (11.0.5) version of this page">Live</a><a class="data-env-link" data-env="ptr" data-whattach="true" title="View the 11.0.7 PTR version of this page" href="https://www.wowhead.com/ptr/guide/classes/death-knight/blood/talent-builds-pve-tank">PTR <br>11.0.7</a><a class="data-env-link" data-env="ptr2" data-whattach="true" title="View the 11.0.5 PTR version of this page" href="https://www.wowhead.com/ptr-2/guide/classes/death-knight/blood/talent-builds-pve-tank">PTR <br>11.0.5</a></div></div>
+<script>WH.Layout.DataTreeSwitcher.checkEnvDimensions();</script>
+    </div>
+
+    <script>WH.Layout.User.init();</script>
+
+            <a class="header-expand-site-tab"></a>
+    </div>
+</div>
+
+<div class="layout-wrapper">
+<div class="layout">
+    <div id="page-content" class="page-content">
+                <div class="sidebar-wrapper">
+            <div class="sidebar-track">
+                <div class="sidebar">
+                <div id="sidebar-zamaf-bt-ph"></div><div class="vertical-block-bg is-atf" data-was-parent="true">
+    <div id="ad-vertical" data-was-unit="true" class="banner-ad">
+        <script>WH.WAS.validateUnit("ad-vertical");</script>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <script>WH.Layout.initSidebar();</script>
+        
+    <div class="main" id="main">
+                <div class="blocks">
+            <div class="block-pair"></div>
+                        <div class="blocks-video">
+                <div id="video-pos-static"><div id="video-pos-inner"></div><script>WH.WAS.validateUnit("video-pos-static")</script></div>            </div>
+            <div id="video-pos-fixed"><script>WH.WAS.validateUnit("video-pos-fixed")</script></div>            <script>WH.WAS.initVideo();</script>
+                    </div>
+                <div class="page-controls"><div id="guide-page-controls">
+<button class="btn btn-small btn-dark fa fa-exclamation-triangle" onclick="ContactTool.show.call(ContactTool, {mode: 6, guide: 3128})" type="button" data-simple-tooltip="Report" aria-label="Report"></button><button class="btn btn-small btn-dark fa fa-link" onclick="WH.Links.show(this, {&quot;type&quot;:100,&quot;typeId&quot;:3128}, event);" type="button" id="open-links-button" data-simple-tooltip="Links" aria-label="Links"></button></div>
+</div>
+        <div class="main-contents" id="main-contents" role="main">
+            <div id="announcement-0"></div>
+
+<script>
+WH.Layout.set({"pageName":"guide","activeTab":6,"breadcrumb":[6,1,6,250]});
+WH.Layout.init();
+skipCaptcha = true;
+g_host = "https:\/\/www.wowhead.com";
+</script>
+    <div class="guide-content" data-class="death-knight" data-spec="blood">
+        <div class="text">
+            <section class="guide-content-title">
+                <h1 class="heading-size-1 guide-content-title-favorite" lang="en">Best Blood Death Knight Talent Tree Builds - The War Within 11.0.5</h1>            </section>
+            <section class="guide-content-byline">
+                <div class="guide-changed">
+    <a href="/user=Mandl" class="guide-author">
+        By Mandl    </a>
+
+            <span class="date">
+            Last Updated:             <span class="date-tip" title="2024/10/30 at 2:58 PM">
+                2024/10/30            </span>
+        </span>
+        <script>WH.Tooltips.titlesToTooltips('.date-tip[title]', true);</script>
+    
+            <a class="guide-changed-changelog" href="/guide=changelog&amp;id=3128">Changelog</a>
+            <span class="guide-changed-patch">Patch: 11.0.5</span>
+    </div>
+                            </section>
+            <div
+                class="guide-header interior-sidebar-parent"
+                style="background-image:url(https://wow.zamimg.com/optimized/guide-header/images/content/tall-headers/retail/categories/classes-death-knight-blood.jpg)"
+            >
+            </div>
+            
+            
+            <script>
+            WH.Favorites.pageInit(
+                ".guide-content-title-favorite",
+                100,
+                3128,
+            );
+            </script>
+
+                <div class="interior-sidebar">
+        <a href="javascript:" class="interior-sidebar-collapse fa fa-times-circle"></a>
+        <a
+            href="javascript:"
+            class="fa fa-list-ul interior-sidebar-expand"
+            aria-label="Table of Contents"
+        >
+        </a>
+        <div class="interior-sidebar-inner">
+            
+<div id="infobox-original-position">
+<table class="infobox"><tr>
+    <td>
+    <table class="infobox-inner-table">
+    <tr class="infobox-heading">
+    <th>Table of Contents</th>    </tr>
+    <tr>
+        <td>
+        <div class="infobox-spacer"></div>
+                        <section class="guide-user-actions-rating">
+            Rating:  3.7/5            <span class="guide-user-actions-rating-value" id="guiderating-value"></span>
+            (<span class="guide-user-actions-rating-votes" id="guiderating-votes">46</span> Votes)            <span class="guide-user-actions-rating-stars" id="guiderating"></span>
+        </section>
+                    <div id="guide-view-toc" lang="en"></div>            </td></tr>
+    </table>
+    </td>
+    <td>
+    <table class="infobox-inner-table">
+    <tr class="infobox-heading">
+    <th>Guide Navigation</th>    </tr>
+    <tr>
+        <td>
+        <div class="infobox-spacer"></div>
+                        <section class="guide-user-actions-rating">
+            Rating:  3.7/5            <span class="guide-user-actions-rating-value" id="guiderating-value"></span>
+            (<span class="guide-user-actions-rating-votes" id="guiderating-votes">46</span> Votes)            <span class="guide-user-actions-rating-stars" id="guiderating"></span>
+        </section>
+                    <div id="guide-navigation"></div>
+        <script>
+            WH.markup.printHtml("[b]The War Within Season 1[\/b]\r\n[ul]\r\n[li][url=guide\/classes\/death-knight\/blood\/the-war-within-guide]Season 1 Guide[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/cheat-sheet]Cheat Sheet[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/talent-builds-pve-tank]Talent Builds[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/rotation-cooldowns-pve-tank]Rotation[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/bis-gear]BiS Gear[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/enchants-gems-pve-tank]Consumables[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/nerub-ar-palace-raid-tips]Nerub-ar Palace[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/mythic-plus-dungeon-tips]Mythic+[\/url][\/li]\r\n[$healer][url=guide\/classes\/death-knight\/blood\/dps-as-healer]DPSing as a Healer[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/tier-set-bonuses]Tier Set[\/url][\/li]\r\n[\/ul]\r\n\r\n[b]Spec Basics[\/b]\r\n\r\n[ul]\r\n[li][url=guide\/classes\/death-knight\/blood\/overview-pve-tank]Overview[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/hero-talents]Hero Talents[\/url][\/li]\r\n\r\n[li][url=guide\/classes\/death-knight\/blood\/abilities-talents-pve-tank]Abilities[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/stat-priority-pve-tank]Stat Priority[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/best-weakauras-macros-addons]WeakAuras, Macros & Addons[\/url][\/li]\r\n[li][url=guide\/classes\/death-knight\/blood\/tank-leveling-tips]Leveling[\/url][\/li]\r\n[ li][url=blood-death-knight-mage-tower]Mage Tower[\/url][\/li]\r\n[$pet][url=guide\/classes\/death-knight\/blood\/pet-guide]Hunter Pets[\/url][\/li]\r\n[\/ul]", "guide-navigation", {
+                allow: WH.markup.CLASS.STAFF,
+                dbPage: true,            });
+        </script>
+            </td></tr>
+    </table>
+    </td>
+</tr></table>
+</div>
+<script>WH.prepInfobox();</script>
+        </div>
+    </div>
+    <script>WH.Page.Guide.initInteriorSidebarControls();</script>
+
+            <div class="interior-sidebar-content">
+                <div id="infobox-alternate-position"></div><div id="video-pos-body"><script>WH.WAS.validateUnit("video-pos-body")</script></div>
+                <div id="guide-body" data-zaf-dynamic="article" lang="en"></div>
+<script>
+    $(document).ready(function () {
+        $('#guiderating').append(GetStars(
+            3.73156,
+            false,
+            0,
+            3128        ));
+    });
+
+WH.Gatherer.addData(6, 1, {"108199":{"name_enus":"Gorefiend's Grasp","icon":"ability_deathknight_aoedeathgrip","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Shadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location."},"434260":{"name_enus":"The Blood is Life","icon":"achievement_nazmir_boss_bloodofghuun","screenshot":{},"displayName":"","rank_enus":"","description_enus":"<!--sp0:0--><span class='q2'><span class='tooltip-inside-icon' style='background-image: url(\/\/wow.zamimg.com\/images\/wow\/icons\/small\/spell_deathknight_unholypresence.jpg)'><\/span> Unholy<\/span><br \/>Vampiric Strike has a chance to summon a Blood Beast to attack your enemy for 10 sec.<br \/><br \/>Each time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 25% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.<br \/><br \/><span class='q2'><span class='tooltip-inside-icon' style='background-image: url(\/\/wow.zamimg.com\/images\/wow\/icons\/small\/spell_deathknight_bloodpresence.jpg)'><\/span> Blood<\/span><br \/>Vampiric Strike has a chance to summon a Blood Beast to attack your enemy for 10 sec.<br \/><br \/>Each time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 50% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.<br \/><br \/><!--sp0--><!--sp137007:0--><!--sp137007--><!--sp137008:0--><!--sp137008-->"},"434905":{"name_enus":"Grim Reaper","icon":"spell_misc_zandalari_council_soulswap","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Reaper's Mark initial strike grants [3 charges of Bone Shield][Killing Machine].<br \/><br \/>Reaper's Mark explosion deals up to 30% increased damage based on your target's missing health."},"440002":{"name_enus":"Reaper of Souls","icon":"pvp_soulrip","screenshot":{},"displayName":"","rank_enus":"","description_enus":"When you apply Reaper's Mark, the cooldown of Soul Reaper is reset, your next Soul Reaper costs no runes, and it explodes on the target regardless of their health.<br \/><br \/>Soul Reaper damage is increased by 20%."},"207167":{"name_enus":"Blinding Sleet","icon":"spell_frost_chillingblast","screenshot":{"id":540267,"imageType":2},"displayName":"","rank_enus":"","description_enus":"Targets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.<br \/><br \/>When Blinding Sleet ends, enemies are slowed by 50% for 6 sec."},"49576":{"name_enus":"Death Grip","icon":"spell_deathknight_strangulate","screenshot":{"id":100180,"imageType":2},"displayName":"","rank_enus":"","description_enus":"Harnesses the energy that surrounds and binds all matter, drawing the target toward you<!--sp389679:0--><!--sp389679-->[<span class='q2'><span class='tooltip-inside-icon' style='background-image: url(\/\/wow.zamimg.com\/images\/wow\/icons\/small\/spell_deathknight_bloodpresence.jpg)'><\/span> Blood<\/span>: <span class='q9'>and forcing the enemy to attack you<\/span>]"},"383269":{"name_enus":"Abomination Limb","icon":"ability_maldraxxus_deathknight","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Sprout an additional limb, dealing [(28.4% of Attack power) * 13] Shadow damage over 12 sec to all nearby enemies. Deals reduced damage beyond 5 targets. Every 1 sec, an enemy is pulled to your location if they are further than 8 yds from you. The same enemy can only be pulled once every 4 sec."},"206970":{"name_enus":"Tightening Grasp","icon":"spell_shadow_coneofsilence","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Gorefiend's Grasp cooldown is reduced by 30 sec and it now also Silences enemies for 3 sec."},"194679":{"name_enus":"Rune Tap","icon":"spell_deathknight_runetap","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Reduces all damage taken by 20% for 4 sec."},"221536":{"name_enus":"Heartbreaker","icon":"spell_deathknight_deathstrike","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Heart Strike generates 2 additional Runic Power per target hit."},"194844":{"name_enus":"Bonestorm","icon":"achievement_boss_lordmarrowgar","screenshot":{"id":565558,"imageType":2},"displayName":"","rank_enus":"","description_enus":"Consume up to 5 Bone Shield charges to create a whirl of bone and gore that batters all nearby enemies, dealing (28.25% of Attack power) Shadow damage every 1 sec, and healing you for 2% of your maximum health every time it deals damage (up to 10%). Deals reduced damage beyond 8 targets.<br \/><br \/>Lasts 2 sec per Bone Shield charge spent and rapidly regenerates a Bone Shield every 1 sec."},"49028":{"name_enus":"Dancing Rune Weapon","icon":"inv_sword_07","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Summons a rune weapon for <!--sp377668:0-->8 sec<!--sp377668--> that mirrors your melee attacks and bolsters your defenses.<br \/><br \/>While active, you gain 35% parry chance."}});
+WH.Gatherer.addData(100, 1, {"15695":{"name":"Talent Tree System Revamp in World of Warcraft: Dragonflight","category":1,"url":"https:\/\/www.wowhead.com\/guide\/classes\/dragonflight-talent-trees"},"6103":{"name":"Warcraft Discord Servers Community Overview","category":4,"url":"https:\/\/www.wowhead.com\/guide\/warcraft-discord-servers-community-overview-6103"}});
+    WH.markup.printHtml("[db=live]Here are all the best Blood Death Knight Talent Tree builds in the [b]Patch 11.0.5 & Season 1[\/b] for raids and Mythic+, including export links to import these builds directly into the game.\r\n\r\nFor recommended talent builds for each raid boss and Mythic+ dungeon, check out our [url=guide\/classes\/death-knight\/blood\/nerub-ar-palace-raid-tips]Nerub-ar Palace Raid Page[\/url] and [url=https:\/\/www.wowhead.com\/guide\/classes\/death-knight\/blood\/mythic-plus-dungeon-tips]Mythic+ page[\/url]\r\n\r\n[center][cta-button=guide\/classes\/death-knight\/blood\/mythic-plus-dungeon-tips icon=spell_deathknight_bloodpresence class=c6 border=strong]Mythic+ Talent Builds[\/cta-button][cta-button=guide\/classes\/death-knight\/blood\/nerub-ar-palace-raid-tips icon=spell_deathknight_bloodpresence class=c6 border=strong]Nerub-ar Palace Talent Builds[\/cta-button][\/center]\r\n\r\n[pad]\r\n[nav]\r\n\r\n[nav-item=guide\/classes\/death-knight\/blood\/overview-pve-tank]Overview[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/the-war-within-guide][span class=\"patch-diff-new\"]NEW[\/span] Season 1[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/nerub-ar-palace-raid-tips][span class=\"patch-diff-new\"]NEW[\/span] Nerub-ar Palace[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/mythic-plus-dungeon-tips][span class=\"patch-diff-new\"]NEW[\/span] Mythic+[\/nav-item]\r\n[nav-item=guides\/classes\/death-knight\/blood\/tier-set-bonuses][span class=\"patch-diff-new\"]NEW[\/span] Tier Set Bonus[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/cheat-sheet]Cheat Sheet[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/talent-builds-pve-tank][color=white]Talent Builds[\/color][\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/hero-talents]Hero Talents[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/rotation-cooldowns-pve-tank]Rotation[\/nav-item]\r\n[$healer=guide\/classes\/death-knight\/blood\/tank-as-healer]DPS as a Healer[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/bis-gear]Gear[\/nav-item]\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n[$pet=guide\/classes\/death-knight\/blood\/pet-guide]Pets[\/nav-item]\r\n[$sup=guide\/classes\/death-knight\/blood\/support-buffs-target-selection]Support Buffs[\/nav-item]\r\n\r\n\r\n\r\n\r\n\r\n\r\n[nav-item=guide\/classes\/death-knight\/blood\/tank-leveling-tips]Leveling[\/nav-item]\r\n\r\n[nav-item=guide\/classes\/death-knight\/blood\/abilities-talents-pve-tank]Abilities & Talents[\/nav-item]\r\n\r\n[nav-item=guide\/classes\/death-knight\/blood\/stat-priority-pve-tank]Stats[\/nav-item]\r\n\r\n[nav-item=guide\/classes\/death-knight\/blood\/enchants-gems-pve-tank]Consumables[\/nav-item]\r\n[nav-item=guide\/classes\/death-knight\/blood\/best-weakauras-macros-addons]WA & Addons[\/nav-item]\r\n\r\n[nav -item=guide\/hotfixes\/dragonflight-season-4#death-knight]Hotfixes[\/nav-item]\r\n[nav -item=blood-death-knight-mage-tower]Mage Tower[\/nav-item]\r\n\r\n[\/nav]\r\n[pad]\r\n[toc]\r\n[h2 toc=\"Talent Import Codes\" type=bar][icon name=trade_engineering color=c6 inline=true size=medium type=round][\/icon] Blood Death Knight Talent Import Codes[\/h2]\r\n\r\n[center][table class=\"grid\" width=800px]\r\n[tr background=c6][td align=center][b]Build Name[\/b][\/td][td align=center width=20%][b]Hero Tree[\/b][\/td][td align=center][b]Import Build Directly In-Game[\/b][\/td][\/tr]\r\n[tr][td][icon name=ability_warlock_baneofhavoc color=c6 inline=true type=round][\/icon] Raid Single Target[\/td][td align=center][symbol=wow-hero-talent-sanlayn] [color=#CE655E]San'layn[\/color][\/td][td align=center][copy=\"Raid Single Target Build\"]CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAGYgZMassAyyA2AYGsB[\/copy][\/td][\/tr]\r\n[tr][td][icon name=inv_polearm_2h_titanargus_d_01 color=c6 inline=true type=round][\/icon] Raid Cleave[\/td][td align=center][symbol=wow-hero-talent-sanlayn] [color=#CE655E]San'layn[\/color][\/td][td align=center][copy=\"Raid Cleave\"]CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAGYgZMassAyyA2AYGsB[\/copy][\/td][\/tr]\r\n[tr][td][icon name=achievement_nazmir_boss_bloodofghuun color=c6 inline=true type=round][\/icon] Raid Council[\/td][td align=center][symbol=wow-hero-talent-sanlayn] [color=#CE655E]San'layn[\/color][\/td][td align=center][copy=\"Raid Council\"]CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAGYgZMassAyyA2AYGsB[\/copy][\/td][\/tr]\r\n[tr][td][icon name=spell_deathknight_bloodboil color=c6 inline=true type=round][\/icon] Mythic+ (no [spell=108199])[\/td][td align=center][symbol=wow-hero-talent-deathbringer] [color=#9BE2E2]Deathbringer[\/color][\/td][td align=center][copy=\"Mythic+\"]CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG[\/copy][\/td][\/tr]\r\n[tr][td][icon name=ability_deathknight_aoedeathgrip color=c6 inline=true type=round][\/icon] Mythic+ ([spell=108199])[\/td][td align=center][symbol=wow-hero-talent-deathbringer] [color=#9BE2E2]Deathbringer[\/color][\/td][td align=center][copy=\"Mythic+ with GG\"]CoPAAAAAAAAAAAAAAAAAAAAAAghZmZGjZmxMDzYmZmmhhZGzYAAAAAwMzMzMzMmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG[\/copy][\/td][\/tr]\r\n[tr][td][icon name=inv_axe_2h_artifactmaw_d_01 color=c6 inline=true type=round][\/icon] Delves[\/td][td align=center][symbol=wow-hero-talent-deathbringer] [color=#9BE2E2]Deathbringer[\/color][\/td][td align=center][copy=\"Delves Build\"]CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG[\/copy][\/td][\/tr]\r\n[tr][td][icon name=spell_deathknight_bloodplague color=c6 inline=true type=round][\/icon] Open-World[\/td][td align=center][symbol=wow-hero-talent-deathbringer] [color=#9BE2E2]Deathbringer[\/color][\/td][td align=center][copy=\"Open-World Build\"]CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG[\/copy][\/td][\/tr]\r\n[\/table][\/center]\r\n\r\nA council fight is made up of multiple enemies that do not spawn or despawn frequently and which can be loosely described as a multi-target boss. For this reason, since [spell=434260] does not split its accumulated damage between the targets it explodes on, in that specific situation, it can massively outperform any other build [b]if you are lucky[\/b].\r\n\r\n[center][cta-button guide=15695 hash=importing-and-exporting border=strong]How to Import Talent Loadouts[\/cta-button][\/center]\r\n\r\n[h2 toc=\"Raid Talent Builds\" type=bar][icon name=ability_marksmanship color=c6 inline=true size=medium type=round][\/icon] Best Blood Death Knight Raid Talent Builds[\/h2]\r\n[h3][icon name=achievement_boss_heraldvolazj color=c6 inline=true size=medium type=round][\/icon] Raid Single Target[\/h3]\r\n\r\nDespite a fundamental re-shaping of talents, both our class and specialization trees have actually been [i]reduced[\/i] in complexity and possible choices for The War Within. Specifically, [spell=108199] is now easily available, and almost every single utility point on the Blood tree is a matter of encounter design more than spec performance.\r\n\r\nWe have opted to provide two builds - one for Deathbringer and one for San'layn - as encounters with forced melee downtime at the wrong time will cause San'layn to grossly underperform.\r\n[pad]\r\n\r\n[center]\r\n[tabs name=\"ST builds\"]\r\n[tab name=\"Sanlayn\"]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAGYgZMassAyyA2AYGsB]\r\n[\/tab]\r\n[tab name=\"Deathbringer\"]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghBzYMzMmZYGzMz0MjhZGzYAAAAAwMzMzMzMzsZmZMAAAYmZmZAAAAjttBGwSwywEYYBgZwG]\r\n[\/tab]\r\n[\/tabs][\/center]\r\n\r\n[h3][icon name=inv_polearm_2h_titanargus_d_01 color=c6 inline=true size=medium type=round][\/icon] Raid Cleave Build[\/h3]\r\n\r\nSimilarly to the single target build, we have provided both a Deathbringer and San'layn variant for raid cleave. This assumes there are no more than 8 targets around the time of every mark; if there are, switch to [spell=434905] instead of [spell=440002].\r\n[pad]\r\n\r\n[center]\r\n[tabs name=\"cleave builds\"]\r\n[tab name=\"Sanlayn\"]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAGYgZMassAyyA2AYGsB]\r\n[\/tab]\r\n[tab name=\"Deathbringer\"]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghBzYMzMmZYGzMz0MjhZGzYAAAAAwMzMzMzMzsZmZMAAAYmZmZAAAAjttBGwSwywEYYBgZwG]\r\n[\/tab]\r\n[\/tabs][\/center]\r\n\r\n[h3][icon name=achievement_nazmir_boss_bloodofghuun color=c6 inline=true size=medium type=round][\/icon] Raid Council Build[\/h3]\r\n\r\nA council fight consists of multiple stacked bosses that live for the entirety of the encounter without becoming immune or disappearing too often. This is one of the weird niches of 11.0.5 San'layn, as [spell=434260] is still mostly unsplit AoE. While there are no fights that justify it in Nerub-ar palace, a couple of the Blackrock Depths raid encounters may allow it to shine. As such, and for a break in the monotony, we are including it here.\r\n\r\n[pad]\r\n\r\n[center][dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAGYgZMassAyyA2AYGsB][\/center]\r\n\r\n\r\n[h2 toc=\"Mythic+ Talent Build\" type=bar][icon name=inv_relics_hourglass color=c6 inline=true size=medium type=round][\/icon] Best Blood Death Knight Mythic+ Talent Builds[\/h2]\r\n\r\nMythic+ is where the talent refinements brought along with The War Within really shine. The removal, consolidation, and point reduction of various filler talents that were present in Dragonflight allows you to pick up new and interesting talents, both for utility and for throughput.\r\n\r\nYou have two utility choices to make:\r\n[ul]\r\n[li]Do you want to add [spell=108199] to your utility arsenal? While this may sound like a no-brainer, it is a costly point. It is also [b]one AoE stop[\/b] every 2 minutes when you already have [spell=207167], two charges of [spell=49576], and [spell=383269] running every 2 minutes alongside it. The question then becomes: [i]Do you need to stop [b]everything all at once[\/b] twice every 2 minutes?[\/i][\/li]\r\n[li]Do you need [spell=206970], whose value is extremely difficult to justify and whose cooldown reduction causes your AoE stops to be desynced from the rest of your team when routing on a 2 minute tempo? A 3 second silence sounds alluring and cool. A 3 second silence [b]on top of another AoE stop[\/b] is very often a waste of a silence, as it turns out. If so, you need to sacrifice a [i]lot[\/i] of things and pick up [spell=194679] purely for pathing purposes. Its use is still very much a loss, and is amplified by how [spell=221536] is basically mandatory in every build now[\/li]\r\n[\/ul]\r\n\r\n[spell=194844] now grants 25 seconds of cooldown reduction to [spell=49028], and this has severely constrained talent pathing due to its relative strength and the number of points to invest on that side of the tree.\r\n\r\n[pad]\r\n[tabs name=DungeonCouncil]\r\n[tab name=\"Default\" icon=sha_ability_warrior_bloodnova_nightmare]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG]\r\n\r\n[\/tab]\r\n[tab name=\"Gorefiend's\" icon=ability_deathknight_aoedeathgrip]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghZmZGjZmxMDzYmZmmhhZGzYAAAAAwMzMzMzMmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG]\r\n\r\n[\/tab]\r\n[tab name=\"GG Silence\" icon=spell_shadow_coneofsilence]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghZmZGjZmxMDzYmZmmhhZGzYAAAAAwMzMzMzMmNzYMAAADzMzMAAAAjttBGwSwywEYYBgZwG]\r\n\r\n[\/tab]\r\n[\/tabs]\r\n\r\n[h2 toc=\"Delve Talent Build\" type=bar][icon name=inv_10_blacksmithing_consumable_key_color1 color=c6 inline=true size=medium type=round][\/icon] Best Blood Death Knight Delve Talent Builds[\/h2]\r\n\r\n[h3 toc=\"Main Delve Build\"][icon name=achievement_boss_heraldvolazj color=c6 inline=true size=medium type=round][\/icon] Delve[\/h3]\r\n\r\nThe Delve build is fundamentally the same as the Mythic+ build; we opted to keep all elements of mob control, and saw no reason to pick anything more. No enemy in Delve is scary enough on interrupts to justify a 12 second kick, and [spell=108199] has been wasted more often than not.\r\n\r\n\r\n[pad]\r\n[center]\r\n[dragonflight-talent-calc=blizzard\/CoPAAAAAAAAAAAAAAAAAAAAAAghxMzYMzMmZYGzMz0MMMzYGDAAAAAmZmZmZmZmNzMjBAAAzMzMAAAAjttBGwSwywEYYBgZwG]\r\n[\/center]\r\n\r\n\r\n[h4]About the Authors[\/h4]\r\n\r\nThis guide has been written by Panthea, who raids in [url=https:\/\/www.wowprogress.com\/guild\/eu\/tarren-mill\/Catalyst]Catalyst[\/url] (Tarren Mill-EU) and Mandl (Mandl#0001 on Discord). They are both tank multiclassers and Useful Minions for the [url=https:\/\/discord.gg\/acherus]Acherus Death Knight community[\/url], where they answer questions regarding death knights and discuss class and encounter strategies.\r\n\r\n\r\n[hr]\r\nOur Blood Death Knight guides are always updated with the latest information from in-game experience, simulations, and logs; make sure to check our changelog to this page, by clicking on [b]View Changelog[\/b] at the top of the page. If you are interested in more in-depth Blood Death Knight guides for [b]Patch 11.0.5 & Season 1[\/b], make sure to browse the [i]Navigation Bar[\/i] below, and our list of [b]Related Guides[\/b] just beneath the [i]Table of Contents[\/i].\r\n[pad]\r\nWould you like to quickly find this guide using Discord? You can do it easily using [url guide=6103 hash=jeeves]Jeeves Bot[\/url]! Click [url=https:\/\/jeeves.bot\/]here to add Jeeves[\/url] to your Discord server.\r\n\r\n[ul][minibox float=left][url=https:\/\/www.wowhead.com\/guides\/blood-death-knight-azerite-traits-powers-armor-bfa-battle-for-azeroth]Previous Page:\r\nAzerite[\/url][\/minibox]\r\n[minibox float=right][url=https:\/\/www.wowhead.com\/blood-death-knight-rotation-guide]Next Page:\r\nRotation, Priority, and Abilities[\/url][\/minibox][\/ul]\r\n[br]\r\n[br]\r\n[pad]\r\n[hr]\r\n[h2 toc=false]Feedback[\/h2]\r\n\r\nThanks for reading our class guides! If you have any feedback about the guides, feel free to leave a comment in the section below and we will reply as quickly as possible. If you'd like to talk with any of our writers directly you can do so by joining our [url=http:\/\/discord.gg\/wowhead]Discord Server[\/url] and finding them there!\r\n\r\n[pad][br][pad]", "guide-body", {"allow":30,"disabledEnvironments":{"ptr":false,"ptr2":false,"beta":false,"d4ptr":false,"d4beta":false}});
+
+    WH.Page.Guide.initStyling();
+</script>
+
+                <noscript>Here are all the best Blood Death Knight Talent Tree builds in the for raids and Mythic+, including export links to import these builds directly into the game.<br /><br />For recommended talent builds for each raid boss and Mythic+ dungeon, check out our <a href="https://www.wowhead.com/guide/classes/death-knight/blood/nerub-ar-palace-raid-tips">Nerub-ar Palace Raid Page</a> and <a href="https://www.wowhead.com/guide/classes/death-knight/blood/mythic-plus-dungeon-tips">Mythic+ page</a><br /><br />Mythic+ Talent BuildsNerub-ar Palace Talent Builds<br /><br />Overview<br />NEW Season 1<br />NEW Nerub-ar Palace<br />NEW Mythic+<br />NEW Tier Set Bonus<br />Cheat Sheet<br />Talent Builds<br />Hero Talents<br />Rotation<br />DPS as a Healer<br />Gear<br /><br />Pets<br />Support Buffs<br /><br />Leveling<br /><br />Abilities &amp; Talents<br /><br />Stats<br /><br />Consumables<br />WA &amp; Addons<br /><br />Hotfixes<br />Mage Tower<br /><br /><h2 class="heading-size-2"> Blood Death Knight Talent Import Codes</h2><br /><br /><table><br /><tr><td><b>Build Name</b></td><td><b>Hero Tree</b></td><td><b>Import Build Directly In-Game</b></td></tr><br /><tr><td> Raid Single Target</td><td> San'layn</td><td></td></tr><br /><tr><td> Raid Cleave</td><td> San'layn</td><td></td></tr><br /><tr><td> Raid Council</td><td> San'layn</td><td></td></tr><br /><tr><td> Mythic+ (no <a href="/spell=108199/gorefiends-grasp">Gorefiend's Grasp</a>)</td><td> Deathbringer</td><td></td></tr><br /><tr><td> Mythic+ (<a href="/spell=108199/gorefiends-grasp">Gorefiend's Grasp</a>)</td><td> Deathbringer</td><td></td></tr><br /><tr><td> Delves</td><td> Deathbringer</td><td></td></tr><br /><tr><td> Open-World</td><td> Deathbringer</td><td></td></tr><br /></table><br /><br />A council fight is made up of multiple enemies that do not spawn or despawn frequently and which can be loosely described as a multi-target boss. For this reason, since <a href="/spell=434260/the-blood-is-life">The Blood is Life</a> does not split its accumulated damage between the targets it explodes on, in that specific situation, it can massively outperform any other build <b>if you are lucky</b>.<br /><br />How to Import Talent Loadouts<br /><br /><h2 class="heading-size-2"> Best Blood Death Knight Raid Talent Builds</h2><br /><h3 class="heading-size-3"> Raid Single Target</h3><br /><br />Despite a fundamental re-shaping of talents, both our class and specialization trees have actually been <i>reduced</i> in complexity and possible choices for The War Within. Specifically, <a href="/spell=108199/gorefiends-grasp">Gorefiend's Grasp</a> is now easily available, and almost every single utility point on the Blood tree is a matter of encounter design more than spec performance.<br /><br />We have opted to provide two builds - one for Deathbringer and one for San'layn - as encounters with forced melee downtime at the wrong time will cause San'layn to grossly underperform.<br /><br />]<br /><br />]<br /><br /><h3 class="heading-size-3"> Raid Cleave Build</h3><br /><br />Similarly to the single target build, we have provided both a Deathbringer and San'layn variant for raid cleave. This assumes there are no more than 8 targets around the time of every mark; if there are, switch to <a href="/spell=434905/grim-reaper">Grim Reaper</a> instead of <a href="/spell=440002/reaper-of-souls">Reaper of Souls</a>.<br /><br />]<br /><br />]<br /><br /><h3 class="heading-size-3"> Raid Council Build</h3><br /><br />A council fight consists of multiple stacked bosses that live for the entirety of the encounter without becoming immune or disappearing too often. This is one of the weird niches of 11.0.5 San'layn, as <a href="/spell=434260/the-blood-is-life">The Blood is Life</a> is still mostly unsplit AoE. While there are no fights that justify it in Nerub-ar palace, a couple of the Blackrock Depths raid encounters may allow it to shine. As such, and for a break in the monotony, we are including it here.<br /><br />]<br /><br /><h2 class="heading-size-2"> Best Blood Death Knight Mythic+ Talent Builds</h2><br /><br />Mythic+ is where the talent refinements brought along with The War Within really shine. The removal, consolidation, and point reduction of various filler talents that were present in Dragonflight allows you to pick up new and interesting talents, both for utility and for throughput.<br /><br />You have two utility choices to make:<br /><ul><li>Do you want to add <a href="/spell=108199/gorefiends-grasp">Gorefiend's Grasp</a> to your utility arsenal? While this may sound like a no-brainer, it is a costly point. It is also <b>one AoE stop</b> every 2 minutes when you already have <a href="/spell=207167/blinding-sleet">Blinding Sleet</a>, two charges of <a href="/spell=49576/death-grip">Death Grip</a>, and <a href="/spell=383269/abomination-limb">Abomination Limb</a> running every 2 minutes alongside it. The question then becomes: <i>Do you need to stop <b>everything all at once</b> twice every 2 minutes?</i></li><li>Do you need <a href="/spell=206970/tightening-grasp">Tightening Grasp</a>, whose value is extremely difficult to justify and whose cooldown reduction causes your AoE stops to be desynced from the rest of your team when routing on a 2 minute tempo? A 3 second silence sounds alluring and cool. A 3 second silence <b>on top of another AoE stop</b> is very often a waste of a silence, as it turns out. If so, you need to sacrifice a <i>lot</i> of things and pick up <a href="/spell=194679/rune-tap">Rune Tap</a> purely for pathing purposes. Its use is still very much a loss, and is amplified by how <a href="/spell=221536/heartbreaker">Heartbreaker</a> is basically mandatory in every build now</li></ul><br /><br /><a href="/spell=194844/bonestorm">Bonestorm</a> now grants 25 seconds of cooldown reduction to <a href="/spell=49028/dancing-rune-weapon">Dancing Rune Weapon</a>, and this has severely constrained talent pathing due to its relative strength and the number of points to invest on that side of the tree.<br /><br />]<br /><br />]<br /><br />]<br /><br /><h2 class="heading-size-2"> Best Blood Death Knight Delve Talent Builds</h2><br /><br /><h3 class="heading-size-3"> Delve</h3><br /><br />The Delve build is fundamentally the same as the Mythic+ build; we opted to keep all elements of mob control, and saw no reason to pick anything more. No enemy in Delve is scary enough on interrupts to justify a 12 second kick, and <a href="/spell=108199/gorefiends-grasp">Gorefiend's Grasp</a> has been wasted more often than not.<br /><br />]<br /><br />About the Authors<br /><br />This guide has been written by Panthea, who raids in <a href="https://www.wowprogress.com/guild/eu/tarren-mill/Catalyst" rel="nofollow">Catalyst</a> (Tarren Mill-EU) and Mandl (Mandl#0001 on Discord). They are both tank multiclassers and Useful Minions for the <a href="https://discord.gg/acherus">Acherus Death Knight community</a>, where they answer questions regarding death knights and discuss class and encounter strategies.<br /><br />Our Blood Death Knight guides are always updated with the latest information from in-game experience, simulations, and logs; make sure to check our changelog to this page, by clicking on <b>View Changelog</b> at the top of the page. If you are interested in more in-depth Blood Death Knight guides for , make sure to browse the <i>Navigation Bar</i> below, and our list of <b>Related Guides</b> just beneath the <i>Table of Contents</i>.<br /><br />Would you like to quickly find this guide using Discord? You can do it easily using Jeeves Bot! Click <a href="https://jeeves.bot/" rel="nofollow">here to add Jeeves</a> to your Discord server.<br /><br /><h2 class="heading-size-2">Feedback</h2><br /><br />Thanks for reading our class guides! If you have any feedback about the guides, feel free to leave a comment in the section below and we will reply as quickly as possible. If you'd like to talk with any of our writers directly you can do so by joining our <a href="http://discord.gg/wowhead">Discord Server</a> and finding them there!<br /><br /></noscript>            </div>
+
+            
+            
+            
+        </div>
+
+            <section class="tags-container">
+                Tags:                 <span class="tags"><a href="/guides/classes/death-knight/tag:2">PvE</a></span>
+            </section>
+            </div>
+
+    <script>
+        WH.Page.Guide.initBody(['guide-user-actions', 'guide-content-title', 'guide-content-byline']);
+        WH.SocialLinks && new WH.SocialLinks(WH.ge('guide-author-social-links'));
+    </script>
+<a href="/premium" class="premium-promo-row">
+    <section class="premium-promo-row-logo"></section>
+    <section class="premium-promo-row-brand">
+        <section class="premium-promo-row-brand-name">Get Wowhead</section>
+        <section class="premium-promo-row-brand-feature">Premium</section>
+    </section>
+    <section class="premium-promo-row-price">
+        <section class="premium-promo-row-price-amount">$2</section>
+        <section class="premium-promo-row-price-period">A Month</section>
+    </section>
+    <section class="premium-promo-row-details">Enjoy an ad-free experience, unlock premium features, & support the site!</section>
+</a>
+<div id="news-dynamic-ad" data-zaf-dynamic="unit"></div>
+    <div class="pad3"></div>
+    <div id="jkbfksdbl4"></div>
+    <div id="lkljbjkb574" class="listview"></div>
+    <script>
+        var tabsRelated = new Tabs({
+            parent: WH.ge('jkbfksdbl4'),
+            trackable: "Guide",
+        });
+    </script>
+    <script>new Listview({"name":"News","parent":"lkljbjkb574","tabs":"tabsRelated","hiddenCols":["views","lastpost"],"visibleCols":["posted"],"sort":["-posted"],"sortable":true,"nItemsPerPage":25,"hideBands":0,"id":"news","template":"forums-topic","data":[{"id":273084,"subject":"New Site Feature: Top Talent Builds, Legendaries, and Trinkets Per Raid Boss","posted":"2017-10-04T21:56:54-05:00","replies":38,"author":"perculia","lastpost":["2017-10-04T21:56:54-05:00",1,4085837,"perculia",258],"blog":1,"newsUrls":{"newsPost":"\/news\/new-site-feature-top-talent-builds-legendaries-and-trinkets-per-raid-boss-273084#news-post-273084","lastComment":"https:\/\/www.wowhead.com\/news\/new-site-feature-top-talent-builds-legendaries-and-trinkets-per-raid-boss-273084#comments"},"roles":258},{"id":276553,"subject":"Talent Calculator Now Supports Top Heroic Raid Builds and Legendaries","posted":"2017-11-24T19:37:19-06:00","replies":2,"author":"perculia","lastpost":["2017-11-24T19:37:19-06:00",1,4126675,"perculia",258],"blog":1,"newsUrls":{"newsPost":"\/news\/talent-calculator-now-supports-top-heroic-raid-builds-and-legendaries-276553#news-post-276553","lastComment":"https:\/\/www.wowhead.com\/news\/talent-calculator-now-supports-top-heroic-raid-builds-and-legendaries-276553#comments"},"roles":258},{"id":277234,"subject":"Talent Calculator Now Supports Top Heroic Antorus Builds and Gear","posted":"2017-11-29T10:23:31-06:00","replies":4,"author":"perculia","lastpost":["2017-11-29T10:23:31-06:00",1,4129931,"perculia",258],"blog":1,"newsUrls":{"newsPost":"\/news\/talent-calculator-now-supports-top-heroic-antorus-builds-and-gear-277234#news-post-277234","lastComment":"https:\/\/www.wowhead.com\/news\/talent-calculator-now-supports-top-heroic-antorus-builds-and-gear-277234#comments"},"roles":258},{"id":285616,"subject":"How to Play Your Class in the Battle for Azeroth 8.0 Pre-Patch - Class Guides for All Specializations","posted":"2018-07-21T06:50:21-05:00","replies":75,"author":"Anshlun","lastpost":["2018-07-21T06:50:21-05:00",1,4215536,"Anshlun",258],"blog":1,"newsUrls":{"newsPost":"\/news\/how-to-play-your-class-in-the-battle-for-azeroth-8-0-pre-patch-class-guides-for-285616#news-post-285616","lastComment":"https:\/\/www.wowhead.com\/news\/how-to-play-your-class-in-the-battle-for-azeroth-8-0-pre-patch-class-guides-for-285616#comments"},"roles":258},{"id":290095,"subject":"Top Builds in the Battle of Dazar'alor, courtesy of Warcraft Logs","posted":"2019-02-04T22:24:24-06:00","replies":3,"author":"Archimtiros","lastpost":["2019-02-04T22:24:24-06:00",1,4322209,"Archimtiros",258],"blog":1,"newsUrls":{"newsPost":"\/news\/top-builds-in-the-battle-of-dazaralor-courtesy-of-warcraft-logs-290095#news-post-290095","lastComment":"https:\/\/www.wowhead.com\/news\/top-builds-in-the-battle-of-dazaralor-courtesy-of-warcraft-logs-290095#comments"},"roles":258}],"hash":Listview.HASH_FULL});</script>    <script>
+        var _ = g_users;
+_["TruthNZ"]={"border":0,"roles":0,"joined":"2014-05-24T23:29:31-05:00","posts":50,"gold":3,"silver":17,"reputation":16953,"copper":138,"tierClass":null,"tierTitle":null,"sig":"There is no higher religion than the Truth"};_["Darthflamel"]={"border":3,"roles":0,"joined":"2015-09-27T16:04:18-05:00","posts":21,"gold":1,"silver":23,"reputation":5320,"copper":36,"tierClass":null,"tierTitle":null,"avatar":1,"avatarmore":"achievement_reputation_knightsoftheebonblade","sig":"[i]sam mazur[\/i] aka darthflame"};_["Sas148"]={"border":0,"roles":258,"joined":"2010-11-18T04:11:33-06:00","posts":6847,"gold":24,"silver":51,"reputation":130331303,"copper":305,"tierClass":"comment-role-premium","tierTitle":"Premium User","title":"Sr. Community Support Specialist","avatar":2,"avatarmore":"3577","sig":"[small][i]\"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passion, they cannot alter the state of facts and evidence.\"[\/i][\/small]\r\n[url=http:\/\/tinyurl.com\/am2j5ru]HYPERtheticals[\/url]"};_["daenerys37"]={"border":0,"roles":0,"joined":"2012-10-13T10:49:51-05:00","posts":44,"gold":3,"silver":21,"reputation":16505,"copper":34,"tierClass":null,"tierTitle":null};_["auronbabe"]={"border":0,"roles":0,"joined":"2017-03-07T14:00:52-06:00","posts":14,"gold":0,"silver":9,"reputation":3156,"copper":16,"tierClass":null,"tierTitle":null,"avatar":1,"avatarmore":"expansionicon_wrathofthelichking","sig":"A Blood Boil a day keeps the Horde away!"};_["Stereonakis"]={"border":0,"roles":0,"joined":"2018-11-01T12:43:27-05:00","posts":0,"gold":0,"silver":4,"reputation":1208,"copper":11,"tierClass":null,"tierTitle":null};_["Argorokrum"]={"border":0,"roles":0,"joined":"2011-11-27T12:12:29-06:00","posts":5,"gold":0,"silver":18,"reputation":2638,"copper":13,"tierClass":null,"tierTitle":null};_["Mortson"]={"border":0,"roles":0,"joined":"2015-02-19T16:48:04-06:00","posts":0,"gold":0,"silver":13,"reputation":4151,"copper":11,"tierClass":null,"tierTitle":null,"sig":"DoTs, DoTs, DoTs !"};_["Alauraa"]={"border":0,"roles":0,"joined":"2016-09-17T14:26:52-05:00","posts":89,"gold":1,"silver":13,"reputation":8580,"copper":45,"tierClass":null,"tierTitle":null};_["Naileunares"]={"border":0,"roles":0,"joined":"2022-12-14T09:34:16-06:00","posts":0,"gold":0,"silver":2,"reputation":303,"copper":3,"tierClass":null,"tierTitle":null};_["elbardo"]={"border":0,"roles":0,"joined":"2018-12-26T13:43:01-06:00","posts":158,"gold":2,"silver":12,"reputation":8871,"copper":32,"tierClass":null,"tierTitle":null};_["targetman"]={"border":0,"roles":0,"joined":"2010-05-31T15:46:17-05:00","posts":9,"gold":1,"silver":17,"reputation":6632,"copper":21,"tierClass":null,"tierTitle":null};_["JayDAxis"]={"border":0,"roles":0,"joined":"2020-08-18T14:13:50-05:00","posts":0,"gold":0,"silver":6,"reputation":1679,"copper":13,"tierClass":null,"tierTitle":null};_["TheFallen87"]={"border":0,"roles":0,"joined":"2017-12-25T11:56:33-06:00","posts":6,"gold":1,"silver":9,"reputation":5236,"copper":20,"tierClass":null,"tierTitle":null,"avatar":1,"avatarmore":"ability_priest_darkness","sig":"Emrys871"};_["Hustletron"]={"border":0,"roles":0,"joined":"2020-05-13T21:19:12-05:00","posts":1,"gold":0,"silver":5,"reputation":1913,"copper":12,"tierClass":null,"tierTitle":null};
+var _ = g_users;
+_["Mag1tek"]={"border":0,"roles":256,"joined":"2007-11-29T07:01:42-06:00","posts":8,"gold":2,"silver":21,"reputation":14667,"copper":28,"tierClass":"comment-role-premium","tierTitle":"Premium User"};_["galathilion"]={"border":0,"roles":0,"joined":"2015-04-22T09:39:45-05:00","posts":0,"gold":0,"silver":12,"reputation":2299,"copper":11,"tierClass":null,"tierTitle":null};_["Mortson"]={"border":0,"roles":0,"joined":"2015-02-19T16:48:04-06:00","posts":0,"gold":0,"silver":13,"reputation":4151,"copper":11,"tierClass":null,"tierTitle":null,"sig":"DoTs, DoTs, DoTs !"};_["Eralyne"]={"border":0,"roles":0,"joined":"2013-12-20T18:52:55-06:00","posts":9,"gold":1,"silver":15,"reputation":5481,"copper":56,"tierClass":null,"tierTitle":null};_["MattZeeX"]={"border":0,"roles":0,"joined":"2016-07-27T09:58:14-05:00","posts":2,"gold":0,"silver":10,"reputation":1606,"copper":11,"tierClass":null,"tierTitle":null};_["a5829931"]={"border":0,"roles":0,"joined":"2018-08-01T00:55:47-05:00","posts":3,"gold":0,"silver":9,"reputation":3375,"copper":9,"tierClass":null,"tierTitle":null};_["cbiss527"]={"border":0,"roles":0,"joined":"2022-04-16T15:14:59-05:00","posts":1,"gold":0,"silver":3,"reputation":2094,"copper":14,"tierClass":null,"tierTitle":null};_["Schattensang"]={"border":0,"roles":0,"joined":"2018-12-11T14:27:05-06:00","posts":224,"gold":4,"silver":13,"reputation":24365,"copper":36,"tierClass":null,"tierTitle":null};_["Kherneas"]={"border":0,"roles":0,"joined":"2016-10-28T13:49:55-05:00","posts":80,"gold":2,"silver":17,"reputation":10320,"copper":40,"tierClass":null,"tierTitle":null,"avatar":1,"avatarmore":"2734740","sig":"Give dracthyr full transmog options Blizzard."};
+WH.Gatherer.addData(6, 1, {"206940":{"name_enus":"Mark of Blood","icon":"ability_hunter_rapidkilling","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Places a Mark of Blood on an enemy for 15 sec. The enemy's damaging auto attacks will also heal their victim for 3% of the victim's maximum health."},"454851":{"name_enus":"Vestigial Shell","icon":"ability_domination_rune12","screenshot":{},"displayName":"","rank_enus":"","description_enus":"Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 50%."}});
+var lv_comments0 = [{"commentv2":1,"number":0,"id":2581214,"nreplies":1,"sticky":0,"user":"TruthNZ","body":"[quote Volstatsz][spell=206940] has had its duration reduced by 40%, its value healed reduced 33%, and was given a 6-second cooldown; as a result, there is no practical scenario where it would be a better use of Runic Power than Death Strike.[\/quote]\r\nDisagree. Can be used when off-tanking to assist whoever is primary tank.\r\nIf you're in the weird case where you don't need more healing or damage, but they do.","date":"2018-07-16T21:59:11-05:00","rating":-6,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"Technically correct, but such situations are very rare. Throughout all of Legion I never ran into a case where my co-tank (either a BM monk or Guardian druid) needed extra healing so badly that it was worth sacrificing my own survival or damage to achieve it. The only realistic case where this talent would be valuable would be a boss that attacks particularly quickly. The per-attack healing bonus would be multiplied accordingly. Unfortunately aside from Tirathon Saltheril, Legion never provided such a boss.","creationdate":"2018-07-17T15:05:49-05:00","id":1121416,"rating":2,"commentid":2581214,"dataTree":1,"roles":256,"username":"Mag1tek","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":1,"id":2584111,"nreplies":0,"sticky":0,"user":"Darthflamel","body":"In war mode, having two charges (if you chose the talent) of death grip is soooooo freaking op imo","date":"2018-07-24T11:03:00-05:00","rating":0,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":2,"id":2613535,"nreplies":0,"sticky":0,"user":"daenerys37","body":"For warmode talents, if you want to make sure that the enemy player never gets away from you, Unholy Command for two charges of death grip plus Walking Dead to prevent them from going faster than normal movement is amazing.  If you find people constantly getting away from you, consider picking up this combo.","date":"2018-09-11T07:35:46-05:00","rating":4,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":3,"id":2621720,"nreplies":2,"sticky":0,"user":"auronbabe","body":"In general i find using Voracious over Blood Worms do more for me in the long run, the extra leech is just too good in big AoE fights when running mythics.. You can also controll it better than the Blood Worms.. And when it comes to Blood Drinker, i stear way clear of it due to it's inactivity period, HeartBreaker serves me more than well enough and it helps with being a reactive tank instead of the 3sec downtime.","date":"2018-10-06T22:09:12-05:00","rating":13,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"Je suis tout a fait d'accord le dps que font les vers de sang est completement ridicule, 1 a 2 % du dps totale, et pour la survie voracious est top","creationdate":"2022-04-13T13:59:56-05:00","id":1542901,"rating":-5,"commentid":2621720,"dataTree":1,"roles":0,"username":"galathilion","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"I agree Voracious is better than Blood Worms by far and away.","creationdate":"2022-10-25T01:43:25-05:00","id":1566598,"rating":0,"commentid":2621720,"dataTree":1,"roles":0,"username":"Mortson","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":4,"id":3251971,"nreplies":0,"sticky":0,"user":"Stereonakis","body":"I really want to play a Necrolord Blood DK, but if it turns out to be weak I will definitly not. Lets See what Blizz will do about it.","date":"2020-11-22T11:46:24-06:00","rating":-5,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":5,"id":3259040,"nreplies":0,"sticky":0,"user":"Argorokrum","body":"A bug that has gone unfixed since Legion makes it possible to keep the 90% permanently on a target if you know what you are doing, but we're here to be kosher, so we won't tell you how, at least not in this section ;-)\r\n\r\npls I need to know","date":"2020-11-28T09:40:53-06:00","rating":-5,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":6,"id":5460221,"nreplies":0,"sticky":0,"user":"Mortson","body":"I cant wait to be able to play around with Umbilicus Eternus.","date":"2022-10-29T04:14:36-05:00","rating":-1,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":7,"id":5460728,"nreplies":2,"sticky":0,"user":"Mortson","body":"Has anyone started to experiment with Umbilicus ? Looking to run low keys with it tonight.","date":"2022-10-30T13:36:10-05:00","rating":1,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"Umbilicus is absolutely amazing, def a must-pick for m+. Go for Improved Vampiric Blood over Improved Heartstrike and go into Umbilicus over Bloodshot. You'll get a lot of milage out of it.","creationdate":"2022-12-13T12:48:37-06:00","id":1581453,"rating":-2,"commentid":5460728,"dataTree":1,"roles":0,"username":"Eralyne","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"https:\/\/discord.com\/channels\/118342632215674881\/1050733396202115112\/1050734886123733012 You should read the FAQ in the DK discord about UE, but ultimately it's not really useful. A TLDR is it requires too many talen points invested, normally you only need 1 point in red thirst to get value out of that talent.","creationdate":"2023-01-14T12:34:47-06:00","id":1592532,"rating":2,"commentid":5460728,"dataTree":1,"roles":0,"username":"MattZeeX","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":8,"id":5468675,"nreplies":1,"sticky":0,"user":"Alauraa","body":"I would love to see a leveling build also, could come in very handy.","date":"2022-11-11T17:37:49-06:00","rating":1,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"Tbh, the talents don't really matter in a leveling build. You could pick the worst ones and still do ok because the core build of BDK are already in your basic toolkit. Just keep track of your runes, your blood shields, your runic power, and your blood boil charges. There, you have already done like 95% of the BDK's gameplay. The talents are there to simply compliments your already strong arsenal.","creationdate":"2023-03-07T19:12:15-06:00","id":1604484,"rating":2,"commentid":5468675,"dataTree":1,"roles":0,"username":"a5829931","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":9,"id":5501524,"nreplies":12,"sticky":0,"user":"Naileunares","body":"The talent build suggestions make me weep. I am appalled that a figure that creates so much content and analysis for Blood DKs, has so little understanding for the class and it's job.\r\n\r\nI will not go super in depth with this critizism, because guides are generally used for an introduction into a class and that's where I'll aim it to be.\r\n\r\nRaid build issues: \r\n\r\n[ul]\r\n[li](Minor) Acclimation > Anti Magic [b]Barrier[\/b]. BDKs generally use AMS to cheese mechanics (not gaining certain debuffs or ignoring ground effects). The strength of the shield rarely matter in this usecase and the cooldown is often insignificant. Suggesting IBF to be ready more often is FAR better for a Tanking Class that benefits from Damage Reducing effects GREATLY, since its a self healing tank not a generally mitigating one. It's even beginner friendlier, because IBF has more usecases than AMS.[\/li]\r\n[li](Major) Relish in Blood. Incredibly insignificant talent inside a raid. Relish in Blood gives you 1 Runic Power per Second in a 100% Best Case Perfect Scenario. The heal is insignificant. Rather pick up Persaverence of the Ebon Blade, since it also goes off Crimson Scourge and increases Versatility with a somewhat 30-50% uptime. And every source of DR is much more valueable to a DK than anything else, since it's what they lack the most.[\/li]\r\n[li](Major) Coagulopathy whilst you can take this for a slight dps increase, it would still leave me baffled how someone would pick this over Blooddrinker. So I cant even believe that this is taken for it's dps increase but for some other unfathomable reason. - Perhaps it pays off in Add fights, but Adds are usually dead so quickly, that the DPS increase doesnt warrant the point over Blooddrinker.[\/li]\r\n[li](Unknown) Iron Heart. You advocate Mastery. I'm not so sure about it, but since I havent tried it yet, I wont critisize it too harshly. But generally a DK's issues are less about not having enough Healing\/Shielding but rather picking up Threat and getting oneshot (since DS ideally needs a buildup of 5 seconds, and with that your mastery build). Versatility is great for this! And since BDKs get 15% instead of only 5% free haste, we dont even feel like we're low on Haste anymore in the start of the addon.[\/li]\r\n[li](Unfathomable) Bloodshot. Even with a mastery build and all the shield you could build up, you won't find yourself in a position where you can keep your Bloodshield for more than 1 Hit against a threatening Boss, unless you outgear him or have a DR running. This talent is purely DPS focused for dumping double DS into a Boss because you're bored. But as BDK's isnt beginner friendly, I'd never suggest DPS focused Raidbuilds to a novice audience. But maybe I am in the wrong, where a Mastery Bloodshield build just always has a shield and you stroll through everything with ease.[\/li]\r\n[\/ul]\r\n\r\nNot mentioning Runetap in the guide also baffles me. It's such an incredibly useful tool for Progression. And every DR helps BDK immensly. It's not needed in every fight, but I would definetly include it into a standard template for Raiding. \r\nNot mentioning Blooddrinker is also very weird, as it serves so many purposes in the BDK arsenal for Single target. It deals amazing damage for its cost. It heals you a semi significant amount, but most importantly - it's a GREAT button to press when you're low on Runes and Runic Power. Since it somewhat heals you, and your character does something for 2 seconds that keeps him from dying.\r\n\r\nMythic+\r\n[ul]\r\n[li](Unfatomable) Permafrost. Regardless of how much Absorb synergy you want to get into this build, BDK white hits are 10% of its damage AT BEST. So in an Single Target fight, 20k for a geared DK. Do we really care about 800hps absorb for a Talent point? And you are picking this over Coldthirst, which gives more kicks, in an kick rich enviroment, which also gives 1\/3rd of a Deathstrike without needing a GCD? (I dont think I need to press how important any Runic Power is and how significant the use of each individual DS is when doing dangerous pulls.)[\/li]\r\n[li](Unfathomable) Bloodshot. Same as before, but worse. We don't deal significant Physical damage in AoE scenarios. At all. And our Bloodshield doesnt last, no matter how big your Mastery is, to sustain DnD + HS Spam to warrant this garbage. Singletarget damage here is also not an argument, since Tanks rather focus on AoE Damage, because they can shine there, to make up for their lack of singletarget damage, since DPS can specialize better on Singletarget than a Tank.[\/li]\r\n[li](Major) No Bonestorm. Bonestorm is risky to use for 1 Second when you activate it. Yes. But there is so much you can do to estimate when its okay to use, or how to make it okay to use. And the payoff afterwards is good damage and 10 seconds invincibility on larger pulls. Which means more time to build up RP, spam DnD HS and BB. Incredible not to take this. [\/li]\r\n[li](Minor) Bloodworm. Insignificant on Fortified. Useful tool in Tyranical. Worth mentioning to not take this on fortified. [\/li]\r\n[li](Unfathomable) Gorefiend's Grasp. Why ... would we ever... not take ... mass grip in M+? This is even more infuriating than Permafrost and Bloodshot combined. This is THE reason you want a BDK in M+. It increases damage. It increases control. It makes pulls smoother. It increases visibility of the situation. And it can even be a emergency interrupt. Like ... wow. You can argue about TIghtening Grasp if you really need the Talent point, but not taking Mass Grip is insanity.[\/li]\r\n[li](Major) Reinforced Bones. Passive Armor. More DR. DR is great. I dont see the need for Bloodtap when you have Heartbreaker and Tombstone. I really dont. Also we have more DRR than ever before, because we can actually take Tombstone now and make it worth while.[\/li]\r\n[li](Minor) I suggest Umbilicus Internitus instead of those garbage talents. At least you can have fun looking at a Giga Shield after each Vampiric Blood, because your Bloodplagues are boosted by 30-150% dmg. And this was a very fun feature to have in Legion too. VB makes you unkillable for 15 seconds and the shield after adds some 5-10 seconds ontop of this afterwards. Great. Fun. Better than garbage Bloodshot, Ironheart.[\/li]\r\n[li](Minor) Despite Mastery build, in M+ you have so many other sources of healing and staying alive. You dont need huge Bloodshields, that still die in 1-2 second because you have 10 most thrashing you. [\/li]\r\n[\/ul]\r\n---\r\nI pity anyone who fell for this trap of an build guide. Just focus on Damage Reductions and big Deathstrikes for Raids and Bloodplagues, RP generation and the several Cooldowns for M+.\r\nYoull do 50k+ dps on bigger pulls and be immortal with it, instead of wanking around with f***ing Bloodshot and Permafrost.\r\n\r\nI'm sorry for thrashing this so offensively, but its quite offensive to look at this and believe beginners actually use this garbage.\r\nUse the unholy guide instead folks, that one actually has decent talents.","date":"2022-12-14T10:43:49-06:00","rating":-5,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"50k is quite low on big pulls as blood","creationdate":"2022-12-26T17:28:37-06:00","id":1586467,"rating":2,"commentid":5501524,"dataTree":1,"roles":0,"username":"cbiss527","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"Anti magic shell is far more useful as magic damage is the threat and physical generally isn't a problem","creationdate":"2022-12-30T16:22:04-06:00","id":1587900,"rating":2,"commentid":5501524,"dataTree":1,"roles":0,"username":"cbiss527","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"I don't have many characters, but I believe your comment unintentionally misinforms the beginners you seek to aid. Let me summarise: AMB > Acclimation. You don't need more cooldowns in this raid, and AMB is more useful anyway. Try using Lichborne more if you feel you need more CDs (you don't) Relish in blood bad, but Perseverance worse because it takes two talents points. Doing your rotation correctly will mean limited DND procs as it cannot proc while DND is already on the floor.","creationdate":"2023-01-14T12:28:24-06:00","id":1592521,"rating":2,"commentid":5501524,"dataTree":1,"roles":0,"username":"MattZeeX","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"Coag is 6.5% more dps on ST than BD, obviously much worse in AOE. BD is not as amazing as you think it is, it generates less RP than heart strike so it is not a \"great button\" to press when low on resources as you mentioned. A mastery build is not advocated for in the guide, item level is what is desired. Iron heart is a strong buff to an already strong part of our kit. Absorbing > healing. There is no need to feelycraft stats. You should not be having threat issues no matter your talents.","creationdate":"2023-01-14T12:29:16-06:00","id":1592522,"rating":2,"commentid":5501524,"dataTree":1,"roles":0,"username":"MattZeeX","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"Bloodshot is a substantial DPS increase, in the realms of 7.5% in one of my logs. Remember that you offtank 50% of the time and will always have blood shield then, and you will often have blood shield up while actively tanking because your DS heal after a tank buster is so much better than the boss's regular melees. In order to make your future conclusions, I'd recommend you look at hard evidence such as logs and sims in order to make more objective comparisons. It should have been easy to prove this.","creationdate":"2023-01-14T12:29:39-06:00","id":1592523,"rating":2,"commentid":5501524,"dataTree":1,"roles":0,"username":"MattZeeX","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":10,"id":5533026,"nreplies":2,"sticky":0,"user":"elbardo","body":"A mythic + build without [url=https:\/\/www.wowhead.com\/spell=108199\/gorefiends-grasp]Gorefiend's Grasp[\/url]?","date":"2023-01-22T10:04:14-06:00","rating":1,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"Gorefiend's Grasp is nice and all, but honestly playing without it isn't missing that much I have to say. You still have two grips on very short cooldowns and Abomination Limb on top. For Sanguine weeks it's still very nice to quickly grab a lot of mobs out of puddles, but outside of those it's that needed. Of course you should always adapt a little depending on the circumstances. Like you don't always need Grip of the Dead to slow a bunch of enemies and might need AMZ for some heavy damage like Hyrja.","creationdate":"2023-01-24T18:55:01-06:00","id":1595228,"rating":2,"commentid":5533026,"dataTree":1,"roles":0,"username":"Schattensang","markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false},{"body":"I don't think I've ever used gorefiend's since they nerfed the grab range in Legion. it feels like ranged enemies are always just slightly too far away to get caught.","creationdate":"2024-07-24T17:16:27-05:00","id":1698029,"rating":0,"commentid":5533026,"dataTree":1,"roles":0,"username":"Kherneas","markupDisabledEnvironments":{"ptr":false,"ptr2":false,"beta":false,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":true,"ptr2":true,"beta":true,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":11,"id":5934732,"nreplies":1,"sticky":0,"user":"JayDAxis","body":"Why are everyone these builds suggesting you take the very niche talent of [spell=454851]? Almost anything would give more versatility then it.","date":"2024-08-28T13:53:45-05:00","rating":3,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[{"body":"Take them. Vestigial Shell isn't mandatory. Pick whatever else you want, I'm pretty sure nobody would bat an eye.","creationdate":"2024-09-30T18:26:09-05:00","id":1721297,"rating":0,"commentid":5934732,"dataTree":1,"roles":0,"username":"a5829931","markupDisabledEnvironments":{"ptr":false,"ptr2":false,"beta":false,"d4ptr":false,"d4beta":false},"downvotedByUser":false,"reportedByUser":false,"votedByUser":false}],"dataTree":1,"markupDisabledEnvironments":{"ptr":false,"ptr2":false,"beta":false,"d4ptr":false,"d4beta":false},"lastEdit":["2024-08-28T13:55:17-05:00",1,"JayDAxis"]},{"commentv2":1,"number":12,"id":5935584,"nreplies":0,"sticky":0,"user":"TheFallen87","body":"Holy button bloat batman","date":"2024-08-29T01:05:52-05:00","rating":7,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":false,"ptr2":false,"beta":false,"d4ptr":false,"d4beta":false}},{"commentv2":1,"number":13,"id":5979007,"nreplies":0,"sticky":0,"user":"Hustletron","body":"At this point in the expansion, 615 ilvl and KSM, I find really any talent that \"buffs\" blood shield or even augments it in either more shielding or duration is essentially wasted on any meaningful content because every mob hits for over 2 million anyway. \r\n\r\nBasically, umbillicus eternus is a waste, bloodshot is a waste, iron heart is a waste in my opinion unless you're doing trivial content where your shield will eat more than the damage you'd take but unfortunately any content that matters ie mythic, raiding, t8 to t11 delves, etc. the mobs hit too hard for you to get any value out of these talents. It almost feels like blood needs a rework already.\r\n\r\nAgain just my opinion on how the class feels at this point in the expansion and unfortunately there's no real alternative to take at the respective tier levels.","date":"2024-10-09T13:51:53-05:00","rating":-4,"indent":0,"roles":0,"deleted":0,"outofdate":0,"userRating":0,"replies":[],"dataTree":1,"markupDisabledEnvironments":{"ptr":false,"ptr2":false,"beta":false,"d4ptr":false,"d4beta":false}}];
+</script>
+
+<noscript><div id="user-comments"><h2 class="heading-size-2">Comments</h2><div class="user-post-"><h3 class="heading-size-3">Comment by <b>TruthNZ</b></h3><div class="quote-box"><a href="/spell=206940/mark-of-blood">Mark of Blood</a> has had its duration reduced by 40%, its value healed reduced 33%, and was given a 6-second cooldown; as a result, there is no practical scenario where it would be a better use of Runic Power than Death Strike.</div><br />Disagree. Can be used when off-tanking to assist whoever is primary tank.<br />If you're in the weird case where you don't need more healing or damage, but they do.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Darthflamel</b></h3>In war mode, having two charges (if you chose the talent) of death grip is soooooo freaking op imo</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>daenerys37</b></h3>For warmode talents, if you want to make sure that the enemy player never gets away from you, Unholy Command for two charges of death grip plus Walking Dead to prevent them from going faster than normal movement is amazing. If you find people constantly getting away from you, consider picking up this combo.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>auronbabe</b></h3>In general i find using Voracious over Blood Worms do more for me in the long run, the extra leech is just too good in big AoE fights when running mythics.. You can also controll it better than the Blood Worms.. And when it comes to Blood Drinker, i stear way clear of it due to it's inactivity period, HeartBreaker serves me more than well enough and it helps with being a reactive tank instead of the 3sec downtime.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Stereonakis</b></h3>I really want to play a Necrolord Blood DK, but if it turns out to be weak I will definitly not. Lets See what Blizz will do about it.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Argorokrum</b></h3>A bug that has gone unfixed since Legion makes it possible to keep the 90% permanently on a target if you know what you are doing, but we're here to be kosher, so we won't tell you how, at least not in this section ;-)<br /><br />pls I need to know</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Mortson</b></h3>I cant wait to be able to play around with Umbilicus Eternus.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Mortson</b></h3>Has anyone started to experiment with Umbilicus ? Looking to run low keys with it tonight.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Alauraa</b></h3>I would love to see a leveling build also, could come in very handy.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Naileunares</b></h3>The talent build suggestions make me weep. I am appalled that a figure that creates so much content and analysis for Blood DKs, has so little understanding for the class and it's job.<br /><br />I will not go super in depth with this critizism, because guides are generally used for an introduction into a class and that's where I'll aim it to be.<br /><br />Raid build issues: <br /><br /><ul><li>(Minor) Acclimation &gt; Anti Magic <b>Barrier</b>. BDKs generally use AMS to cheese mechanics (not gaining certain debuffs or ignoring ground effects). The strength of the shield rarely matter in this usecase and the cooldown is often insignificant. Suggesting IBF to be ready more often is FAR better for a Tanking Class that benefits from Damage Reducing effects GREATLY, since its a self healing tank not a generally mitigating one. It's even beginner friendlier, because IBF has more usecases than AMS.</li><li>(Major) Relish in Blood. Incredibly insignificant talent inside a raid. Relish in Blood gives you 1 Runic Power per Second in a 100% Best Case Perfect Scenario. The heal is insignificant. Rather pick up Persaverence of the Ebon Blade, since it also goes off Crimson Scourge and increases Versatility with a somewhat 30-50% uptime. And every source of DR is much more valueable to a DK than anything else, since it's what they lack the most.</li><li>(Major) Coagulopathy whilst you can take this for a slight dps increase, it would still leave me baffled how someone would pick this over Blooddrinker. So I cant even believe that this is taken for it's dps increase but for some other unfathomable reason. - Perhaps it pays off in Add fights, but Adds are usually dead so quickly, that the DPS increase doesnt warrant the point over Blooddrinker.</li><li>(Unknown) Iron Heart. You advocate Mastery. I'm not so sure about it, but since I havent tried it yet, I wont critisize it too harshly. But generally a DK's issues are less about not having enough Healing/Shielding but rather picking up Threat and getting oneshot (since DS ideally needs a buildup of 5 seconds, and with that your mastery build). Versatility is great for this! And since BDKs get 15% instead of only 5% free haste, we dont even feel like we're low on Haste anymore in the start of the addon.</li><li>(Unfathomable) Bloodshot. Even with a mastery build and all the shield you could build up, you won't find yourself in a position where you can keep your Bloodshield for more than 1 Hit against a threatening Boss, unless you outgear him or have a DR running. This talent is purely DPS focused for dumping double DS into a Boss because you're bored. But as BDK's isnt beginner friendly, I'd never suggest DPS focused Raidbuilds to a novice audience. But maybe I am in the wrong, where a Mastery Bloodshield build just always has a shield and you stroll through everything with ease.</li></ul><br /><br />Not mentioning Runetap in the guide also baffles me. It's such an incredibly useful tool for Progression. And every DR helps BDK immensly. It's not needed in every fight, but I would definetly include it into a standard template for Raiding. <br />Not mentioning Blooddrinker is also very weird, as it serves so many purposes in the BDK arsenal for Single target. It deals amazing damage for its cost. It heals you a semi significant amount, but most importantly - it's a GREAT button to press when you're low on Runes and Runic Power. Since it somewhat heals you, and your character does something for 2 seconds that keeps him from dying.<br /><br />Mythic+<br /><ul><li>(Unfatomable) Permafrost. Regardless of how much Absorb synergy you want to get into this build, BDK white hits are 10% of its damage AT BEST. So in an Single Target fight, 20k for a geared DK. Do we really care about 800hps absorb for a Talent point? And you are picking this over Coldthirst, which gives more kicks, in an kick rich enviroment, which also gives 1/3rd of a Deathstrike without needing a GCD? (I dont think I need to press how important any Runic Power is and how significant the use of each individual DS is when doing dangerous pulls.)</li><li>(Unfathomable) Bloodshot. Same as before, but worse. We don't deal significant Physical damage in AoE scenarios. At all. And our Bloodshield doesnt last, no matter how big your Mastery is, to sustain DnD + HS Spam to warrant this garbage. Singletarget damage here is also not an argument, since Tanks rather focus on AoE Damage, because they can shine there, to make up for their lack of singletarget damage, since DPS can specialize better on Singletarget than a Tank.</li><li>(Major) No Bonestorm. Bonestorm is risky to use for 1 Second when you activate it. Yes. But there is so much you can do to estimate when its okay to use, or how to make it okay to use. And the payoff afterwards is good damage and 10 seconds invincibility on larger pulls. Which means more time to build up RP, spam DnD HS and BB. Incredible not to take this. </li><li>(Minor) Bloodworm. Insignificant on Fortified. Useful tool in Tyranical. Worth mentioning to not take this on fortified. </li><li>(Unfathomable) Gorefiend's Grasp. Why ... would we ever... not take ... mass grip in M+? This is even more infuriating than Permafrost and Bloodshot combined. This is THE reason you want a BDK in M+. It increases damage. It increases control. It makes pulls smoother. It increases visibility of the situation. And it can even be a emergency interrupt. Like ... wow. You can argue about TIghtening Grasp if you really need the Talent point, but not taking Mass Grip is insanity.</li><li>(Major) Reinforced Bones. Passive Armor. More DR. DR is great. I dont see the need for Bloodtap when you have Heartbreaker and Tombstone. I really dont. Also we have more DRR than ever before, because we can actually take Tombstone now and make it worth while.</li><li>(Minor) I suggest Umbilicus Internitus instead of those garbage talents. At least you can have fun looking at a Giga Shield after each Vampiric Blood, because your Bloodplagues are boosted by 30-150% dmg. And this was a very fun feature to have in Legion too. VB makes you unkillable for 15 seconds and the shield after adds some 5-10 seconds ontop of this afterwards. Great. Fun. Better than garbage Bloodshot, Ironheart.</li><li>(Minor) Despite Mastery build, in M+ you have so many other sources of healing and staying alive. You dont need huge Bloodshields, that still die in 1-2 second because you have 10 most thrashing you. </li></ul><br />---<br />I pity anyone who fell for this trap of an build guide. Just focus on Damage Reductions and big Deathstrikes for Raids and Bloodplagues, RP generation and the several Cooldowns for M+.<br />Youll do 50k+ dps on bigger pulls and be immortal with it, instead of wanking around with f***ing Bloodshot and Permafrost.<br /><br />I'm sorry for thrashing this so offensively, but its quite offensive to look at this and believe beginners actually use this garbage.<br />Use the unholy guide instead folks, that one actually has decent talents.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>elbardo</b></h3>A mythic + build without <a href="https://www.wowhead.com/spell=108199/gorefiends-grasp">Gorefiend's Grasp</a>?</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>JayDAxis</b></h3>Why are everyone these builds suggesting you take the very niche talent of <a href="/spell=454851/vestigial-shell">Vestigial Shell</a>? Almost anything would give more versatility then it.</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>TheFallen87</b></h3>Holy button bloat batman</div>
+
+<div class="user-post-"><h3 class="heading-size-3">Comment by <b>Hustletron</b></h3>At this point in the expansion, 615 ilvl and KSM, I find really any talent that &quot;buffs&quot; blood shield or even augments it in either more shielding or duration is essentially wasted on any meaningful content because every mob hits for over 2 million anyway. <br /><br />Basically, umbillicus eternus is a waste, bloodshot is a waste, iron heart is a waste in my opinion unless you're doing trivial content where your shield will eat more than the damage you'd take but unfortunately any content that matters ie mythic, raiding, t8 to t11 delves, etc. the mobs hit too hard for you to get any value out of these talents. It almost feels like blood needs a rework already.<br /><br />Again just my opinion on how the class feels at this point in the expansion and unfortunately there's no real alternative to take at the respective tier levels.</div>
+
+</div>
+
+</noscript>
+
+<script type="text/javascript">
+new Listview({
+    data: lv_comments0,
+    id: 'comments',
+    name: WH.TERMS.comments,
+    parent: 'lkljbjkb574',
+    
+    tabOpts: {className: 'ugc-tab ugc-tab-comments'},
+    tabs: tabsRelated,
+    template: 'comment',
+});        tabsRelated.flush();
+    </script>
+<h2 class="heading-size-2">Contribute</h2>
+<div id="lkgljhkv456" class="comment-tabs"></div>
+
+<div class="text comment-tabs-body">
+<div class="tabbed-contents" style="clear:none">
+<div id="tab-add-your-comment" style="display:none">
+Please keep the following in mind when posting a comment:<ul>
+    <li><div>Your comment must be in English or it will be removed.</div></li>
+    <li><div>Unsure how to post? Check out our <a href="/help=commenting-and-you" target="_blank">handy guide</a>!</div></li>
+    <li><div>You might want to proof-read your comments before posting them.</div></li>
+    <li><div>Please post questions on our <a href="/forums">forums</a> for quicker reply.</div></li>
+</ul>
+<div id="comment" class="add-comment-form">
+    <section class="comments-post-header">
+        <div class="imitation-heading heading-size-3">Post a Comment</div>    </section>
+<form>
+    <div class="comment-edit-body">
+        <textarea class="comment-editbox" rows="10" cols="40" name="commentbody" disabled="disabled"></textarea>
+    </div>
+    <small>You are not logged in. Please <a href="/account=signin">log in</a> or <a href="/account=signup">register an account</a> to add your comment.</small>
+</form>
+</div>
+</div>
+<div id="tab-submit-a-screenshot" style="display:none">
+    Simply browse for your screenshot using the form below.    <ul>
+        <li><div>Screenshots containing UI elements are generally declined on sight, the same goes for screenshots from the modelviewer or character selection screen.</div></li>
+        <li><div>The higher the quality the better!</div></li>
+        <li><div>Please review our <a href="/help=screenshot-guidelines" target="_blank">Screenshot Guidelines</a> before submitting!</div></li>
+    </ul>
+    <form action="" method="post">
+        <input type="file" name="screenshotfile" disabled="disabled"><br>
+        <small>You are not logged in. Please <a href="/account=signin">log in</a> to submit a screenshot.</small>
+    </form>
+</div>
+
+<div id="tab-suggest-a-video" style="display:none">
+    Simply type the URL of the video in the form below.    <div class="pad2"></div>
+    <form action="/video=add&amp;100.3128" method="post" enctype="multipart/form-data"
+          onsubmit="return vi_validateForm(this)">
+
+        URL: <input type="text" name="videourl" style="width:35%">
+        <small>Supported: YouTube only</small>
+                    <div class="pad2"></div>
+            Title: <input type="text" name="videotitle" maxlength="200"> <small>Optional, up to 200 characters</small><br>
+                    <div class="pad"></div>
+        <input type="submit" value="Submit">
+
+        <div class="pad3"></div>
+        <small class="q0">Note: Your video will need to be approved before appearing on the site.</small>
+
+    </form>
+</div>
+<div id="tab-submit-your-data" style="display: none">
+    <p>The <b>Wowhead Client</b> is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website! &nbsp;</p>
+    <div class="pad2"></div>
+    <p>It serves 2 main purposes: &nbsp;</p>
+
+    <ol>
+        <li><div>It maintains a WoW addon called the <b>Wowhead Looter</b>, which collects data as you play the game! &nbsp;</div></li>
+        <li><div>It uploads the <b>collected data</b> to Wowhead in order to keep the database up-to-date! &nbsp;</div></li>
+    </ol>
+
+    <p>You can also use it to keep track of your completed quests, recipes, mounts, companion pets, and titles!&nbsp;</p>
+    <div class="pad2"></div>
+    <p>So, what are you waiting for? <a href="/client">Download the client</a> and get started.&nbsp;</p>
+</div>
+</div>
+</div>
+
+<script>
+var tabsContribute = new Tabs({parent: WH.ge('lkgljhkv456')});
+        tabsContribute.add(WH.TERMS.addyourcomment_stc, {id: 'add-your-comment'});tabsContribute.flush();
+</script><div class="blocks">
+    <div class="block-pair"><div class="horizontal-block-bg is-btf" data-was-parent="true">
+    <div id="ad-horizontalBTF" data-was-unit="true" class="banner-ad">
+        <script>WH.WAS.validateUnit("ad-horizontalBTF");</script>
+    </div>
+</div>
+</div>
+</div><div class="mobile-footer-block-bg is-atf" data-was-parent="true">
+    <div id="ad-mobileFooter" data-was-unit="true" class="banner-ad">
+        <script>WH.WAS.validateUnit("ad-mobileFooter");</script>
+    </div>
+</div>
+
+            <footer class="footer"></footer>
+        </div>    </div>    </div>
+    <script>WH.Layout.Footer.init([[1,"All news posts","\/news\/rss\/all"],[2,"Classic series WoW news","\/news\/rss\/classic-series"],[3,"Retail WoW news","\/news\/rss\/retail"],[4,"In-development WoW news","\/news\/rss\/in-dev"],[5,"Other Blizzard games news","\/news\/rss\/other-blizzard-games"],[6,"Diablo news","\/news\/rss\/diablo"],[7,"Classic WoW news","\/news\/rss\/classic"],[8,"TBC WoW news","\/news\/rss\/burning-crusade-classic"],[22,"Wrath WoW news","\/news\/rss\/wotlk-classic"],[24,"Cataclysm WoW news","\/news\/rss\/cata-classic"],[25,"Mists WoW news","\/news\/rss\/mists-classic"],[9,"Diablo II: Resurrected news","\/news\/rss\/diablo-2"],[10,"Diablo Immortal news","\/news\/rss\/diablo-immortal"],[11,"Diablo IV news","\/news\/rss\/diablo-4"],[12,"All WoW news","\/news\/rss\/all-wow"],[13,"WoW PTR news","\/news\/rss\/wow-ptr"],[14,"WoW Beta news","\/news\/rss\/wow-beta"],[15,"WoW Live news","\/news\/rss\/wow-live"],[17,"Hearthstone news","\/news\/rss\/hearthstone"],[18,"Overwatch news","\/news\/rss\/overwatch"],[19,"Heroes of the Storm news","\/news\/rss\/heroes"],[20,"Warcraft III news","\/news\/rss\/wc3"],[21,"Starcraft news","\/news\/rss\/starcraft"],[23,"Warcraft Rumble news","\/news\/rss\/rumble"]]);</script>
+
+    </div></div>
+    <script>
+    qcdata = {} || qcdata;
+    (function(){
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol === "https:" ? "https://secure" : "http://pixel") +
+            ".quantserve.com/aquant.js?a=p-80xBzMhbKolFI";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem,scpt);
+    }());
+
+    var qcdata = {qacct: 'p-80xBzMhbKolFI', labels: ''};
+</script>
+<noscript>
+    <img src="//pixel.quantserve.com/pixel/p-80xBzMhbKolFI.gif?labels=_fp.event.Default" style="display: none;"
+         border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+</body></html>

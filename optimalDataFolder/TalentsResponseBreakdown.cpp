@@ -13,11 +13,6 @@
 using namespace std;
 using json = nlohmann::json;
 
-void searchForTitles(GumboNode* node, ofstream& talentOutputFile) {
-    if (node->type != GUMBO_NODE_ELEMENT) {
-        return;
-    }
-}
 
 /*
 since this program introduces a new header, gumbo, that I am unfamiliar with,
@@ -28,60 +23,40 @@ int main() {
     
     string talentHTMLstring;
     ifstream talentHTMLfile("optimalTalent.html");
-    if (talentHTMLfile.is_open()) {
-        talentHTMLstring = std::string((std::istreambuf_iterator<char>(talentHTMLfile)), std::istreambuf_iterator<char>());
-        /*  first part reads the file content as a sequence of characters,
-            the second part means that it reaches the end, or reads the entire file
-        */
-        talentHTMLfile.close();
-        cout << "optimalTalent.html data saved into talentHTML string var" << endl;
-        cout << talentHTMLstring.substr(0,100) << endl;
-    } else {
-        cerr << "Failed to open optimalTalent.html for opening" << endl;
-    }
-    
-    /*
-
-    regex talentRegex(R"(\[copy=\"([^\"]+)\"]([^\[]+)\[\/copy\])");
-    // this part serves as an identifier, knowing that the info we want
-
-    ofstream talentOutputFile("talent_builds.txt");
-    if (!talentOutputFile.is_open()) {
-        cerr << "Failed to open talent_builds.txt for writing builds!" << endl;
-    }
-
-    cout << "talent_builds.txt should be open" << endl;
-
-    auto matchesBegin = sregex_iterator(talentHTMLstring.begin(), talentHTMLstring.end(), talentRegex);
-    auto matchesEnd = sregex_iterator();
-
-    cout << "should start going through html file here" << endl;
-
+    string htmlLine;
+    vector<string> talentTitles;
+    vector<string> exportStrings;
     int matchCount = 0;
 
-    for (sregex_iterator it = matchesBegin; it != matchesEnd; ++it) {
-        smatch match = *it;
-        matchCount++;
-
-        string talentTitle = match[1];
-        cout << "talent title is " << talentTitle << endl;
-        string exportString = match[2];
-
-        cout << "variables overwritten" << endl;
+    while (getline(talentHTMLfile, htmlLine)) {
+        if (htmlLine.find("WH.markup.printHtml") != string::npos) {
+            cout << "found line" << endl;
+            // regex talentRegex("\\[copy=\\\\\"[^\"]*\"\\][A-Za-z0-9]+\\[\\\\/copy\\]"); this one works, but it is not capturing contents
+            regex talentRegex("\\[copy=\\\"([^\\\"]+)\\\"\\]([A-Za-z0-9]+)\\[\\/copy\\]");
+            smatch matches;
 
 
+            if (regex_search(htmlLine, matches, talentRegex)) {
+                matchCount++;
+                cout << matches[0] << endl;
+                cout << typeid(matches[0]).name() << endl;
+                cout << matches[1] << endl;
+                cout << matches[2] << endl;
+                string talent_title = matches[1];
+                string export_string = matches[2];
 
-        talentOutputFile << "Talent Build Title : " << talentTitle << endl;
-        talentOutputFile << "Export String: " << exportString << endl;
-        talentOutputFile << "---------------------------------------" << endl;
+                talentTitles.push_back(talent_title);
+                exportStrings.push_back(export_string);
+
+                cout << "Talent Tree Title: " << talent_title << endl;
+                cout << "Export String: " << export_string << endl;
+                cout << "-------------------------------" << endl;
+            }
+        }
     }
 
-    cout << "Total matchess found: " << matchCount << endl;
-
-
-    cout << "Talent Builds have been written into 'talent_builds.txt'. " << endl;
-
-    */
+    cout << "match count" << matchCount << endl;
+    
 
     return 0;
 

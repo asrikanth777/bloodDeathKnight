@@ -1,0 +1,50 @@
+void search_for_talent_builds(GumboNode* node, ofstream& talentOutputFile) {
+    if (node->type != GUMBO_NODE_ELEMENT) {
+        return;
+    }
+
+    // Get the tag name as a string for debugging
+
+    // Check if the node is a <tr> tag, which contains the talent data
+    if (node->v.element.tag == GUMBO_TAG_TR) {
+        cout << "Found <tr> tag!" << endl;
+        string talentTitle;
+        string exportString;
+
+        // Loop through children of <tr> to find <td> with talent title and export string
+        for (unsigned int i = 0; i < node->v.element.children.length; ++i) {
+            GumboNode* child = static_cast<GumboNode*>(node->v.element.children.data[i]);
+            cout << "Checking <td> child, index: " << i << endl;
+            if (child->type == GUMBO_NODE_ELEMENT && child->v.element.tag == GUMBO_TAG_TD) {
+                // First <td> (index 0) contains talent title
+                if (i == 0) {
+                    if (child->v.element.children.length > 0) {
+                        GumboNode* textNode = static_cast<GumboNode*>(child->v.element.children.data[0]);
+                        talentTitle = textNode->v.text.text;
+                        cout << "Talent Title: " << talentTitle << endl;
+                    }
+                }
+                // Third <td> (index 2) contains the export string (copy attribute)
+                else if (i == 2) {
+                    GumboAttribute* copyAttr = gumbo_get_attribute(&child->v.element.attributes, "copy");
+                    if (copyAttr) {
+                        exportString = copyAttr->value;
+                        cout << "Export String: " << exportString << endl;
+                    }
+                }
+            }
+        }
+
+        // If both talent title and export string are found, write them to the file
+        if (!talentTitle.empty() && !exportString.empty()) {
+            talentOutputFile << "Talent Build Title: " << talentTitle << endl;
+            talentOutputFile << "Export String: " << exportString << endl;
+            talentOutputFile << "---------------------------------------" << endl;
+        }
+    }
+
+    // Recursively process children
+    for (unsigned int i = 0; i < node->v.element.children.length; ++i) {
+        search_for_talent_builds(static_cast<GumboNode*>(node->v.element.children.data[i]), talentOutputFile);
+    }
+}
