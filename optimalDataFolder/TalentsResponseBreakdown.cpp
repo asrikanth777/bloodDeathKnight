@@ -1,9 +1,6 @@
 #include <iostream>
 #include <string>
-#include <curl/curl.h>
-#include "json.hpp"
 #include <fstream>
-#include <gumbo.h>
 #include <map>
 #include <vector>
 #include <utility>
@@ -11,7 +8,7 @@
 
 
 using namespace std;
-using json = nlohmann::json;
+
 
 
 /*
