@@ -19,7 +19,7 @@ int main() {
 
     curlOptimalBuild = curl_easy_init();
     if (curlOptimalBuild) {
-        string wowheadBuildURL = "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear";
+        string wowheadBuildURL = "https://u.gg/wow/blood/death_knight/gear?";
         curl_easy_setopt(curlOptimalBuild, CURLOPT_URL, wowheadBuildURL.c_str());
         cout << "Requesting URL: " << wowheadBuildURL << endl;
 
