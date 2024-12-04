@@ -33,3 +33,9 @@ November 28, 2024
 November 29, 2024
 - Trying to go through and learn JavaScript in this timeframe while also trying to learn C++ and Python is idiotic. So instead of rebuilding the talent tree in Wowhead guides, I am going to just parse for the export string for each build. It doesn't make much sense to try to recreate it and compare to my talents, if I would probably just use the export string anyways
 - I have the html response from wowhead, now it is just parsing through, getting the export strings, titles for their respective builds, and putting it into a text file.
+
+December 4, 2024
+- Havent updated in a while, but I finished webscraping talent builds. The result isn't as pretty as I wanted but it works for what I need it for. Now it is just a matter of figuring out how to scrape for builds, since there is a good amount of diversity, i have also considered using u.gg, since they have a ranking for best gear
+- this step is going to take longer to work out and my methods for achieving it will likely differ from the way I did it for talents.
+- (might also be a good time to take a break and actually play the game more since i am not as high ranked as i used to be.......)
+
