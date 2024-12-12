@@ -22,31 +22,36 @@ void searchForItems(GumboNode* node, vector<item>& itemList) {
     if (node->type != GUMBO_NODE_ELEMENT) return;
     // ensures only element nodes are processed
 
-    GumboAttribute* classAttr;
-    if ((classAttr = gumbo_get_attribute(&node->v.element.attributes, "class"))) {
-        // gets class attribute of current element
-        //gumbo_get... searches for specific attribute in node's attributes list
-        string className = classAttr->value;
+    if (node->v.element.tag == GUMBO_TAG_TR) {
+        const GumboVector* children = &node->v.element.children;
 
-        if (className == "item-category") {
-            string gearType;
-            string itemName;
-            string itemDropLoc;
+        if (children->length == 3) {
+            string gearTypeHTML, itemNameHTML, itemDropLocHTML;
 
-            if (node->v.element.children.length > 0) {
-                GumboNode* child = static_cast<GumboNode*>(node->v.element.children.data[0]);
-                if (child->type == GUMBO_NODE_TEXT) {
-                    category = child->v.text.text;
+            GumboNode* slotNode = static_cast<GumboNode*>(children->data[0]);
+            if (slotNode->type == GUMBO_NODE_ELEMENT && slotNode->v.element.children.length > 0) {
+                GumboNode* textNode = static_cast<GumboNode*>(slotNode->v.element.children.data[0]);
+                if (textNode->type == GUMBO_NODE_TEXT) {
+                    gearTypeHTML = textNode->v.text.text;
                 }
             }
 
-            if (!gearType.empty() && !itemName.empty() && !itemDropLoc.empty()) {
-                itemList.emplace_back(gearType, itemName, itemDropLoc);
-            } 
-
+            GumboNode* itemNode = static_cast<GumboNode*>*(children->data[1]);
+            if (itemNode->type == GUMBO_NODE_ELEMENT) {
+                for (unsigned int i = 0; i < itemNode->v.element.children.length; ++i) {
+                    GumboNode* child = static_cast<GumboNode*>(itemNode->v.element.children.data[i]);
+                    if (child->type == GUMBO_NODE_ELEMENT && gumbo_get_attribute(&child->v.element.attributes, "class") &&
+                    string(gumbo_get_attribute(&child->v.element.attributes, "class")->value) == "q4") {
+                        GumboNode* textNode = static_cast<GumboNode*>(child->v.element.children.data[0]);
+                        if (textNode->type == GUMBO_NODE_TEXT) {
+                            itemNameHTML = textNode->v.text.text;
+                        }
+                    }
+                }
+            }
         }
 
-    }
 
+    }
 
 }
