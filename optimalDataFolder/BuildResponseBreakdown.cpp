@@ -5,7 +5,7 @@
 #include <vector>
 #include <utility>
 #include <gumbo.h>
-
+#include <cstring>
 
 
 using namespace std;
@@ -14,8 +14,17 @@ struct item {
     string gearType;
     string itemName;
     string itemDropLoc;
+
+    item(const string& body, const string& name, const string& loc) : 
+        gearType(body), itemName(name), itemDropLoc(loc) {}
 };
 
+ostream& operator << (ostream& os, const item& itm) {
+    os << "Gear Type: " << itm.gearType << endl
+       << "Item Name: " << itm.itemName << endl
+       << "Item Drop Location: " << itm.itemDropLoc << endl;
+       return os;
+}
 
 /* sample html search data
 
@@ -110,83 +119,86 @@ available to players.</p>
 <div class="image_block_content" id="area_3">
 */
 
+
+
 void searchForItems(GumboNode* node, vector<item>& itemList) {
-    // node = current HTML node in traversal
-    // reference to where item objects are stored
-    if (node->type != GUMBO_NODE_ELEMENT) return;
-    // ensures only element nodes are processed
+    if (node->type != GUMBO_NODE_ELEMENT) {
+        return;
+    }
+    
 
-    if (node->v.element.tag == GUMBO_TAG_TR) {
-        // looks for the tag TR, which has our contents
-        const GumboVector* children = &node->v.element.children;
+    if (node->v.element.tag == GUMBO_TAG_TABLE) {
+        cout << "found table!" << endl;
+        const GumboVector* table_children = &node->v.element.children;
 
-        if (children->length == 3) {
-            // for our TR element, there are exactly three categories we are looking for
-            // one that has title ("trinket 1"), one that has item name, and one that has drop location
-            // if it has 3 categories, we initialize our variables to "contain" the data later
-            string gearTypeHTML, itemNameHTML, itemDropLocHTML;
+        for (int i = 0; i < table_children->length; ++i) {
+            GumboNode* child = static_cast<GumboNode*>(table_children->data[i]);
 
-            GumboNode* slotNode = static_cast<GumboNode*>(children->data[0]);
-            // this is for slot, like which part of body it goes to ("head")
-            if (slotNode->type == GUMBO_NODE_ELEMENT && slotNode->v.element.children.length > 0) {
-                // makes sure its an html element and not empty
-                GumboNode* textNode = static_cast<GumboNode*>(slotNode->v.element.children.data[0]);
-                // then it encapsulates the data inside the first category
-                if (textNode->type == GUMBO_NODE_TEXT) {
-                    // if it is text, it saves it to gearTypeHTML, our 1st catch variable
-                    gearTypeHTML = textNode->v.text.text;
-                }
-            }
-
-            GumboNode* itemNode = static_cast<GumboNode*>(children->data[1]);
-            // proceeds to second category, which should be item name
-            // this line has a lot of data, so it takes more steps to parse through it
-            if (itemNode->type == GUMBO_NODE_ELEMENT) {
-                for (unsigned int i = 0; i < itemNode->v.element.children.length; ++i) {
-                    //iterrates through the stuff in the item name section, since it has a lot of data 
-                    GumboNode* child = static_cast<GumboNode*>(itemNode->v.element.children.data[i]);
-                    if (child->type == GUMBO_NODE_ELEMENT && gumbo_get_attribute(&child->v.element.attributes, "class") &&
-                    string(gumbo_get_attribute(&child->v.element.attributes, "class")->value) == "q4") {
-                        // if the element has a "class" with the name "q4", we look here
-                        GumboNode* textNode = static_cast<GumboNode*>(child->v.element.children.data[0]);
-                        // encapsulates this segment of our line and double checks to see if it is a text form
-                        if (textNode->type == GUMBO_NODE_TEXT) {
-                            itemNameHTML = textNode->v.text.text;
+            // write in space for tbody
+            if(child->type == GUMBO_NODE_ELEMENT && child->v.element.tag == GUMBO_TAG_TR) {
+                cout << "found tr" << endl;
+                vector<string> row_data;
+                const GumboVector* row_children = &child->v.element.children;
+                for(int j = 0; j < row_children->length; ++j) {
+                    GumboNode* cell = static_cast<GumboNode*>(row_children->data[j]);
+                    if (cell->type == GUMBO_NODE_ELEMENT &&
+                    cell -> v.element.tag == GUMBO_TAG_TD) {
+                        const GumboVector* cell_children = &cell->v.element.children;
+                        for (int k = 0; k < cell_children->length; ++k) {
+                            GumboNode* text_node = static_cast<GumboNode*>(cell_children->data[k]);
+                            if(text_node->type == GUMBO_NODE_TEXT) {
+                                row_data.push_back(std::string(text_node->v.text.text));
+                            }
                         }
                     }
                 }
-            }
 
-            GumboNode* locNode = static_cast<GumboNode*>(children->data[2]);
-            // goes through third category, which has our location
-            if (locNode->type == GUMBO_NODE_ELEMENT && locNode->v.element.children.length > 0) {
-                // same as before, checks to see if it is an element and has data in it
-                for (unsigned int i = 0; i < locNode->v.element.children.length; ++i) {
-                    // iterrates through elements, since there is more than just text to this part
-                    GumboNode* child = static_cast<GumboNode*>(locNode->v.element.children.data[i]);
-                    if (child-> type == GUMBO_NODE_ELEMENT &&  child->v.element.tag == GUMBO_TAG_A) {
-                        // our loc data is encased around a "a" tag, so we are looking for it
-                        GumboNode* textNode = static_cast<GumboNode*>(child->v.element.children.data[0]);
-                        // captures data and checks to see if it has text
-                        if (textNode->type == GUMBO_NODE_TEXT) {
-                            itemDropLocHTML = textNode->v.text.text;
-                        }
-                    }
+                if (row_data.size() == 3) {
+                    itemList.emplace_back(row_data[0], row_data[1], row_data[2]);
                 }
-            }
-
-            if (!gearTypeHTML.empty() && !itemNameHTML.empty() && !itemDropLocHTML.empty()) {
-                // checks to see if any of these are not empty, and will add them to vector set accordingly
-                itemList.emplace_back(gearTypeHTML, itemNameHTML, itemDropLocHTML);
             }
         }
-
     }
 
-    // recursive transversal
     const GumboVector* children = &node->v.element.children;
-    for (unsigned int i = 0; i < children->length; ++i) {
-        searchForItems(static_cast<GumboNode*>(children->data[i]) , itemList);
+    for (int i = 0; i < children->length; ++i) {
+        searchForItems(static_cast<GumboNode*>(children->data[i]), itemList);
     }
+}
+
+int main() {
+    string buildHTMLstring;
+    ifstream buildHTMLfile("optimalBuild.html");
+    vector<item> finalItems;
+
+    if (buildHTMLfile.is_open()) {
+        buildHTMLstring.assign(istreambuf_iterator<char>(buildHTMLfile),
+        istreambuf_iterator<char>());
+        buildHTMLfile.close();
+    } else {
+        cerr << "Error: could not open file optimalbuild.html" << endl;
+        return -1;
+    }
+
+    
+
+    GumboOutput* output = gumbo_parse(buildHTMLstring.c_str());
+    searchForItems(output->root, finalItems);
+    gumbo_destroy_output(&kGumboDefaultOptions, output);
+
+    ofstream bestBuildsSheet("bestBuilds.txt");
+    if (bestBuildsSheet.is_open()) {
+        bestBuildsSheet << "updated builds (rough draft needs improvement later)" << endl;
+        for (const item& itm: finalItems) {
+            bestBuildsSheet << itm << endl;
+        }
+        bestBuildsSheet.close();
+    } else {
+        cerr << "Error: could not open file bestbuilds.txt" << endl;
+    }
+
+    return 0;
+
+
 
 }
