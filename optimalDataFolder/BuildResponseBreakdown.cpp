@@ -15,7 +15,7 @@ struct item {
     string itemName;
     string itemDropLoc;
 
-    item() : gearType(""), itemName(""), itemDropLoc("") {}
+    item() : gearType("slot"), itemName("item"), itemDropLoc("source/note") {}
 
     item(const string& body, const string& name, const string& loc) : 
         gearType(body), itemName(name), itemDropLoc(loc) {}
@@ -30,12 +30,8 @@ ostream& operator << (ostream& os, const item& itm) {
 
 int itemCounter = 0;
 
-void parseTableElements(GumboNode* node) {
-    item itemData;
+item parseTableElements(GumboNode* node) {
 
-    string slotText;
-    string nameText;
-    string locText;
 
     const GumboVector* trChildren = &node->v.element.children;
     
@@ -50,6 +46,14 @@ void parseTableElements(GumboNode* node) {
     }
 
     if (tdBlocks.size() == 3) {
+
+        item itemData;
+        
+
+        string slotText;
+        string nameText;
+        string locText;
+
         GumboNode* slotNode = tdBlocks[0];
         if (slotNode->type == GUMBO_NODE_ELEMENT && slotNode->v.element.tag == GUMBO_TAG_TD) {
             const GumboVector* slotChildren = &slotNode->v.element.children;
@@ -57,8 +61,7 @@ void parseTableElements(GumboNode* node) {
                 GumboNode* slotChild = static_cast<GumboNode*>(slotChildren->data[slot]);
                 if (slotChild->type == GUMBO_NODE_TEXT) {
                     slotText = string(slotChild->v.text.text);
-                    cout << slotText << endl;
-                    itemCounter++;
+
                 }
             }
             
@@ -81,7 +84,7 @@ void parseTableElements(GumboNode* node) {
                             GumboNode* nameTextNode = static_cast<GumboNode*>(spanChild->v.element.children.data[0]);
                             if (nameTextNode->type == GUMBO_NODE_TEXT) {
                                 nameText = nameTextNode->v.text.text;
-                                cout << nameText << endl;
+                                
                             }
                         }
 
@@ -109,34 +112,58 @@ void parseTableElements(GumboNode* node) {
                 
                 
             }
-            cout << locText << endl;
         }
 
-    cout << "------------------------" << endl;
+
+
+
+        item completeItem = item(slotText, nameText, locText);
+        return completeItem;
+
 
     }
+    
+    return item();
 
-    if (itemCounter % 15 == 0) {
-        cout << "==============" << endl;
+    
+}
+bool startsWith(string& text, string& prefix) {
+    if (text.size() < prefix.size()) {
+        return false;
     }
+    return equal(prefix.begin(), prefix.end(), text.begin(), 
+        [](char a, char b) {return tolower(a) == tolower(b);});
 }
 
-void searchForTableElements(GumboNode* node, vector<item>& itemList) {
+
+void searchForBuildDescriptions(GumboNode* node, vector<string>& buildDes) {
+    string prefix = "This List";
+    string emptyagain = "";
+    const GumboVector* pChildren = &node->v.element.children;
+    for (int p = 0; p < pChildren->length; ++p) {
+        GumboNode* pChild = static_cast<GumboNode*>(pChildren->data[p]);
+        if (pChild->type == GUMBO_NODE_TEXT) {
+            string text(pChild->v.text.text);
+            if (startsWith(text, prefix)) {
+                cout << "found it!" << endl;
+                buildDes.push_back(text);
+            } 
+        }
+    }
+    
+}
+
+
+void searchForTableElements(GumboNode* node, vector<item>& itemList, vector<string>& buildDes) {
     if (node->type != GUMBO_NODE_ELEMENT) {
         return;
     }
 
-/* the structure for content we want goes as 
-<html lang="en">
-    <body class = "iv_body">
-        <div id = "main" class = "design_new_toc">
-            div id="content" class = "background">
-                <div id = "center" class = "backgrond">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td> <- stuff we want 
-*/
+
+    if (node->v.element.tag == GUMBO_TAG_P) {
+        searchForBuildDescriptions(node, buildDes);
+        
+    }
 
     if (node->v.element.tag == GUMBO_TAG_TABLE) {
         
@@ -150,15 +177,17 @@ void searchForTableElements(GumboNode* node, vector<item>& itemList) {
                     GumboNode* tbodyChild = static_cast<GumboNode*>(tbodyChildren->data[b]);
                     if (tbodyChild->type == GUMBO_NODE_ELEMENT && tbodyChild->v.element.tag == GUMBO_TAG_TR) {
                         
-                        parseTableElements(tbodyChild);
+                        item compItem = parseTableElements(tbodyChild);
+                        itemList.push_back(compItem);
                     }
                 }
             }
         }
     }
+
     const GumboVector* children = &node->v.element.children;
     for (int i = 0; i < children->length; ++i) {
-        searchForTableElements(static_cast<GumboNode*>(children->data[i]), itemList);
+        searchForTableElements(static_cast<GumboNode*>(children->data[i]), itemList, buildDes);
     }
 }
 
@@ -167,6 +196,7 @@ int main() {
     string buildHTMLstring;
     ifstream buildHTMLfile("optimalBuild.html");
     vector<item> finalItems;
+    vector<string> buildDesc;
 
     if (buildHTMLfile.is_open()) {
         buildHTMLstring.assign(istreambuf_iterator<char>(buildHTMLfile),
@@ -180,14 +210,28 @@ int main() {
     
 
     GumboOutput* output = gumbo_parse(buildHTMLstring.c_str());
-    searchForTableElements(output->root, finalItems);
+    searchForTableElements(output->root, finalItems, buildDesc);
+    
     gumbo_destroy_output(&kGumboDefaultOptions, output);
 
     ofstream bestBuildsSheet("bestBuilds.txt");
+    cout << "in main file" << endl;
+    cout << buildDesc.size() << endl;
+    int itemTextCount = 0;
     if (bestBuildsSheet.is_open()) {
         bestBuildsSheet << "updated builds (rough draft needs improvement later)" << endl;
+        bestBuildsSheet << "+++++++++" << endl;
+        bestBuildsSheet << buildDesc[0] << endl;
+        bestBuildsSheet << "+++++++++" << endl;
         for (const item& itm: finalItems) {
+            bestBuildsSheet << "---------" << endl;
             bestBuildsSheet << itm << endl;
+            bestBuildsSheet << "---------" << endl;
+            itemTextCount++;
+            if (itemTextCount % 16 == 0) {
+                bestBuildsSheet << "===========" << endl;
+                bestBuildsSheet << buildDesc[itemTextCount/16] << endl;
+            }
         }
         bestBuildsSheet.close();
     } else {

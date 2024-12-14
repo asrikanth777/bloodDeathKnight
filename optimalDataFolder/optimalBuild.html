@@ -94,14 +94,24 @@ var icy_veins_disable_minified_menu = false;
     <script>
       //<![CDATA[
   if (!getCookie("ips4_member_premium") || getCookie("ips4_member_premium_analytics")) {
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NF9Q7DV');
-      //]]>
 
+    var gtagConfig = document.createElement('script');
+    gtagConfig.src = "//www.googletagmanager.com/gtag/js?id=AW-16778687634";
+    gtagConfig.async = true;
+    document.head.insertBefore(gtagConfig, document.head.getElementsByTagName('script')[0]);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-16778687634');
   }
+      //]]>
     </script>
     <!-- End Google Tag Manager -->
 <style type="text/css">
@@ -125,7 +135,7 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     <meta property="og:site_name" content="Icy Veins"/>
     <meta property="og:type" content="article"/>
     <meta property="fb:app_id" content="260815523933555"/>
-<script type="importmap">{"/cataclysm-talent-calculator.js":"//static.icy-veins.com/javascript/cataclysm-talent-calculator-efd557a8e7f5d835c382afbfaa50699f.js","/d2-skill-calculator.js":"//static.icy-veins.com/javascript/d2-skill-calculator-a74be49557b360c41dbadc4c7d0a7e91.js","/d3-rune-tooltips.js":"//static.icy-veins.com/javascript/d3-rune-tooltips-b2b788d0c0649cbc554eae4aa1d1188e.js","/dragonflight-talent-calculator-ptr.js":"//static.icy-veins.com/javascript/dragonflight-talent-calculator-ptr-58d3e16ecde42b8cc118adfc0228f41b.js","/dragonflight-talent-calculator.js":"//static.icy-veins.com/javascript/dragonflight-talent-calculator-259f4057e4f791c18df72f8225d79f6a.js","/ffxiv-crafting.js":"//static.icy-veins.com/javascript/ffxiv-crafting-20a65b7daf4d5d59b111a300c9cd0e89.js","/ffxiv-rotation.js":"//static.icy-veins.com/javascript/ffxiv-rotation-762ef2f1c915fbb3d8dabacb8eed987c.js","/genshin-map.js":"//static.icy-veins.com/javascript/genshin-map-7c87c77fcdf88b5ef77782de6e8e45a6.js","/genshin-team-builder.js":"//static.icy-veins.com/javascript/genshin-team-builder-025989fd46cf3495608e1b0b8c69a9cf.js","/gig-widget.js":"//static.icy-veins.com/javascript/gig-widget-02c421c4b873ebfe4b2c5c8200d0fdbf.js","/highcharts.js":"//static.icy-veins.com/javascript/highcharts-3be736da182451e135ccf4893329aa4e.js","/highslide.js":"//static.icy-veins.com/javascript/highslide-3e1f2b42798a8ec5675760439c8ef9b6.js","/icy-player.js":"//static.icy-veins.com/javascript/icy-player-bc09d89cd42a64a00efb3a0789e6aa82.js","/icyveins-bl3.js":"//static.icy-veins.com/javascript/icyveins-bl3-33b4fe7e35d1e23cfb648f0c77cdc457.js","/icyveins-cataclysm.js":"//static.icy-veins.com/javascript/icyveins-cataclysm-44e76d9d09822f975793b8616f571591.js","/icyveins-classic.js":"//static.icy-veins.com/javascript/icyveins-classic-de9f6ed83a274cf3295bb648a52bc90d.js","/icyveins-collapsible-tier-list.js":"//static.icy-veins.com/javascript/icyveins-collapsible-tier-list-26907f12a8fdb11803c17a769c01fd32.js","/icyveins-common.js":"//static.icy-veins.com/javascript/icyveins-common-4ace8101680e64e91c97e522af99734f.js","/icyveins-content.js":"//static.icy-veins.com/javascript/icyveins-content-ebca7b9b0935ee0fb796192264797d3d.js","/icyveins-d2.js":"//static.icy-veins.com/javascript/icyveins-d2-c019cb661e4dd870949cde64e5059d20.js","/icyveins-d3.js":"//static.icy-veins.com/javascript/icyveins-d3-ad31a7a1a89957317314028f6f6dc3b7.js","/icyveins-d4.js":"//static.icy-veins.com/javascript/icyveins-d4-b5f8584c51e9adfed9141e7b3089b630.js","/icyveins-diablo-immortal.js":"//static.icy-veins.com/javascript/icyveins-diablo-immortal-59469a06100137a501f012c46a95a75d.js","/icyveins-ffxiv.js":"//static.icy-veins.com/javascript/icyveins-ffxiv-0e75b53eff678e4317a299210832c9c6.js","/icyveins-forums.js":"//static.icy-veins.com/javascript/icyveins-forums-d41d8cd98f00b204e9800998ecf8427e.js","/icyveins-genshin.js":"//static.icy-veins.com/javascript/icyveins-genshin-62a9a184ea5323ee8bc5b74298907be7.js","/icyveins-glossary.js":"//static.icy-veins.com/javascript/icyveins-glossary-e7d30e10e7dd73364c7e4cd061d160c6.js","/icyveins-hearthstone.js":"//static.icy-veins.com/javascript/icyveins-hearthstone-80b674f3f96134e77b89877ba20ed310.js","/icyveins-heroes.js":"//static.icy-veins.com/javascript/icyveins-heroes-1800f56b318b7ec6d8492c75234b281f.js","/icyveins-image-block.js":"//static.icy-veins.com/javascript/icyveins-image-block-87d2b2ebfe6a9a914f0b73b15102a268.js","/icyveins-last-epoch-dungeon-timer.js":"//static.icy-veins.com/javascript/icyveins-last-epoch-dungeon-timer-476e6beb87b5cc3d73aca2df03eb1376.js","/icyveins-le.js":"//static.icy-veins.com/javascript/icyveins-le-ad513caa1a2ae2535d50e1cea3da5f4a.js","/icyveins-lost-ark.js":"//static.icy-veins.com/javascript/icyveins-lost-ark-2d51b98fc9f42785f19871277ca5906c.js","/icyveins-overwatch.js":"//static.icy-veins.com/javascript/icyveins-overwatch-6f0f886433560970d146cfd9aec243c6.js","/icyveins-sc2.js":"//static.icy-veins.com/javascript/icyveins-sc2-447dd6f8a9a90bbb19b21a6517464b90.js","/icyveins-tbc.js":"//static.icy-veins.com/javascript/icyveins-tbc-2b68c7895e6b9c85366a0de1c9c0dfdd.js","/icyveins-video-player.js":"//static.icy-veins.com/javascript/icyveins-video-player-eeba4b3f15bf0bddd0b9c408bd0d9a42.js","/icyveins-wotlk.js":"//static.icy-veins.com/javascript/icyveins-wotlk-d789b471716d4d3fa74695ee06f6445a.js","/icyveins-wow.js":"//static.icy-veins.com/javascript/icyveins-wow-4933a7ab757e527a19ab70aa8b209193.js","/jquery-ui.js":"//static.icy-veins.com/javascript/jquery-ui-19d036b444245475ad42b29057a49f44.js","/jquery.js":"//static.icy-veins.com/javascript/jquery-8101d596b2b8fa35fe3a634ea342d7c3.js","/lost-ark-map.js":"//static.icy-veins.com/javascript/lost-ark-map-015543ebc5632b4c9e971c0be0720085.js","/lost-ark-skill-builder-embed.js":"//static.icy-veins.com/javascript/lost-ark-skill-builder-embed-09dd0ac2df1dc8bf604d56facc1e0827.js","/lost-ark-skill-builder.js":"//static.icy-veins.com/javascript/lost-ark-skill-builder-fd451046947c7a8917c97e0a744b4b31.js","/premium.js":"//static.icy-veins.com/javascript/premium-cdbc6bfff1d24fac925f6d96c8f7959e.js","/soulbinds-gig.js":"//static.icy-veins.com/javascript/soulbinds-gig-580723ab486dce3307cd06319b031197.js","/soulbinds.js":"//static.icy-veins.com/javascript/soulbinds-1b0b0fc98937f8f7933aa85c80feac1d.js","/tbc-talent-calculator.js":"//static.icy-veins.com/javascript/tbc-talent-calculator-dec605e250884102da27c6bdf8d0a4b2.js","/twitch.js":"//static.icy-veins.com/javascript/twitch-9ca27fdb7ab3828826d1b3aa1d306913.js","/tww-talent-calculator.js":"//static.icy-veins.com/javascript/tww-talent-calculator-c58130c324b1d6837fbbc2de794aaa0f.js","/ugg-interlinking.js":"//static.icy-veins.com/javascript/ugg-interlinking-00c69987c46aaeb1a656c3beb65bcde1.js","/wotlk-talent-calculator-ptr.js":"//static.icy-veins.com/javascript/wotlk-talent-calculator-ptr-094a417a8d368d990cee4edaac116d20.js","/wotlk-talent-calculator.js":"//static.icy-veins.com/javascript/wotlk-talent-calculator-8a001f5be9b2af74069befa8897042f6.js"}</script>
+<script type="importmap">{"imports":{"@/cataclysm-talent-calculator.js":"//static.icy-veins.com/javascript/cataclysm-talent-calculator-efd557a8e7f5d835c382afbfaa50699f.js","@/d2-attack-speed-calculator-constants.js":"//static.icy-veins.com/javascript/d2-attack-speed-calculator-constants-a16014831a5204e9e26d49126a54424d.js","@/d2-attack-speed-calculator.js":"//static.icy-veins.com/javascript/d2-attack-speed-calculator-d72368dc1b106e1334296c4484d8ec40.js","@/d2-skill-calculator.js":"//static.icy-veins.com/javascript/d2-skill-calculator-a74be49557b360c41dbadc4c7d0a7e91.js","@/d3-rune-tooltips.js":"//static.icy-veins.com/javascript/d3-rune-tooltips-b2b788d0c0649cbc554eae4aa1d1188e.js","@/dragonflight-talent-calculator-ptr.js":"//static.icy-veins.com/javascript/dragonflight-talent-calculator-ptr-58d3e16ecde42b8cc118adfc0228f41b.js","@/dragonflight-talent-calculator.js":"//static.icy-veins.com/javascript/dragonflight-talent-calculator-259f4057e4f791c18df72f8225d79f6a.js","@/ffxiv-crafting.js":"//static.icy-veins.com/javascript/ffxiv-crafting-20a65b7daf4d5d59b111a300c9cd0e89.js","@/ffxiv-rotation.js":"//static.icy-veins.com/javascript/ffxiv-rotation-762ef2f1c915fbb3d8dabacb8eed987c.js","@/genshin-map.js":"//static.icy-veins.com/javascript/genshin-map-7c87c77fcdf88b5ef77782de6e8e45a6.js","@/genshin-team-builder.js":"//static.icy-veins.com/javascript/genshin-team-builder-025989fd46cf3495608e1b0b8c69a9cf.js","@/gig-widget.js":"//static.icy-veins.com/javascript/gig-widget-02c421c4b873ebfe4b2c5c8200d0fdbf.js","@/highcharts.js":"//static.icy-veins.com/javascript/highcharts-3be736da182451e135ccf4893329aa4e.js","@/highslide.js":"//static.icy-veins.com/javascript/highslide-3e1f2b42798a8ec5675760439c8ef9b6.js","@/icy-player.js":"//static.icy-veins.com/javascript/icy-player-bc09d89cd42a64a00efb3a0789e6aa82.js","@/icyveins-bl3.js":"//static.icy-veins.com/javascript/icyveins-bl3-33b4fe7e35d1e23cfb648f0c77cdc457.js","@/icyveins-cataclysm.js":"//static.icy-veins.com/javascript/icyveins-cataclysm-44e76d9d09822f975793b8616f571591.js","@/icyveins-classic.js":"//static.icy-veins.com/javascript/icyveins-classic-de9f6ed83a274cf3295bb648a52bc90d.js","@/icyveins-collapsible-tier-list.js":"//static.icy-veins.com/javascript/icyveins-collapsible-tier-list-26907f12a8fdb11803c17a769c01fd32.js","@/icyveins-common.js":"//static.icy-veins.com/javascript/icyveins-common-4ace8101680e64e91c97e522af99734f.js","@/icyveins-content.js":"//static.icy-veins.com/javascript/icyveins-content-ebca7b9b0935ee0fb796192264797d3d.js","@/icyveins-d2.js":"//static.icy-veins.com/javascript/icyveins-d2-c019cb661e4dd870949cde64e5059d20.js","@/icyveins-d3.js":"//static.icy-veins.com/javascript/icyveins-d3-ad31a7a1a89957317314028f6f6dc3b7.js","@/icyveins-d4.js":"//static.icy-veins.com/javascript/icyveins-d4-b5f8584c51e9adfed9141e7b3089b630.js","@/icyveins-diablo-immortal.js":"//static.icy-veins.com/javascript/icyveins-diablo-immortal-59469a06100137a501f012c46a95a75d.js","@/icyveins-ffxiv.js":"//static.icy-veins.com/javascript/icyveins-ffxiv-0e75b53eff678e4317a299210832c9c6.js","@/icyveins-forums.js":"//static.icy-veins.com/javascript/icyveins-forums-d41d8cd98f00b204e9800998ecf8427e.js","@/icyveins-genshin.js":"//static.icy-veins.com/javascript/icyveins-genshin-62a9a184ea5323ee8bc5b74298907be7.js","@/icyveins-glossary.js":"//static.icy-veins.com/javascript/icyveins-glossary-e7d30e10e7dd73364c7e4cd061d160c6.js","@/icyveins-hearthstone.js":"//static.icy-veins.com/javascript/icyveins-hearthstone-80b674f3f96134e77b89877ba20ed310.js","@/icyveins-heroes.js":"//static.icy-veins.com/javascript/icyveins-heroes-1800f56b318b7ec6d8492c75234b281f.js","@/icyveins-image-block.js":"//static.icy-veins.com/javascript/icyveins-image-block-87d2b2ebfe6a9a914f0b73b15102a268.js","@/icyveins-last-epoch-dungeon-timer.js":"//static.icy-veins.com/javascript/icyveins-last-epoch-dungeon-timer-476e6beb87b5cc3d73aca2df03eb1376.js","@/icyveins-le.js":"//static.icy-veins.com/javascript/icyveins-le-ad513caa1a2ae2535d50e1cea3da5f4a.js","@/icyveins-lost-ark.js":"//static.icy-veins.com/javascript/icyveins-lost-ark-2d51b98fc9f42785f19871277ca5906c.js","@/icyveins-overwatch.js":"//static.icy-veins.com/javascript/icyveins-overwatch-6f0f886433560970d146cfd9aec243c6.js","@/icyveins-sc2.js":"//static.icy-veins.com/javascript/icyveins-sc2-447dd6f8a9a90bbb19b21a6517464b90.js","@/icyveins-tbc.js":"//static.icy-veins.com/javascript/icyveins-tbc-2b68c7895e6b9c85366a0de1c9c0dfdd.js","@/icyveins-video-player.js":"//static.icy-veins.com/javascript/icyveins-video-player-eeba4b3f15bf0bddd0b9c408bd0d9a42.js","@/icyveins-wotlk.js":"//static.icy-veins.com/javascript/icyveins-wotlk-d789b471716d4d3fa74695ee06f6445a.js","@/icyveins-wow.js":"//static.icy-veins.com/javascript/icyveins-wow-4933a7ab757e527a19ab70aa8b209193.js","@/jquery-ui.js":"//static.icy-veins.com/javascript/jquery-ui-19d036b444245475ad42b29057a49f44.js","@/jquery.js":"//static.icy-veins.com/javascript/jquery-8101d596b2b8fa35fe3a634ea342d7c3.js","@/lost-ark-map.js":"//static.icy-veins.com/javascript/lost-ark-map-015543ebc5632b4c9e971c0be0720085.js","@/lost-ark-skill-builder-embed.js":"//static.icy-veins.com/javascript/lost-ark-skill-builder-embed-09dd0ac2df1dc8bf604d56facc1e0827.js","@/lost-ark-skill-builder.js":"//static.icy-veins.com/javascript/lost-ark-skill-builder-fd451046947c7a8917c97e0a744b4b31.js","@/premium.js":"//static.icy-veins.com/javascript/premium-cdbc6bfff1d24fac925f6d96c8f7959e.js","@/soulbinds-gig.js":"//static.icy-veins.com/javascript/soulbinds-gig-580723ab486dce3307cd06319b031197.js","@/soulbinds.js":"//static.icy-veins.com/javascript/soulbinds-1b0b0fc98937f8f7933aa85c80feac1d.js","@/tbc-talent-calculator.js":"//static.icy-veins.com/javascript/tbc-talent-calculator-dec605e250884102da27c6bdf8d0a4b2.js","@/twitch.js":"//static.icy-veins.com/javascript/twitch-9ca27fdb7ab3828826d1b3aa1d306913.js","@/tww-talent-calculator.js":"//static.icy-veins.com/javascript/tww-talent-calculator-c58130c324b1d6837fbbc2de794aaa0f.js","@/ugg-interlinking.js":"//static.icy-veins.com/javascript/ugg-interlinking-00c69987c46aaeb1a656c3beb65bcde1.js","@/wotlk-talent-calculator-ptr.js":"//static.icy-veins.com/javascript/wotlk-talent-calculator-ptr-094a417a8d368d990cee4edaac116d20.js","@/wotlk-talent-calculator.js":"//static.icy-veins.com/javascript/wotlk-talent-calculator-8a001f5be9b2af74069befa8897042f6.js"}}</script>
 
     <script src="//static.icy-veins.com/javascript/./jquery-8101d596b2b8fa35fe3a634ea342d7c3.js"></script>
     <script src="//static.icy-veins.com/javascript/./icyveins-common-4ace8101680e64e91c97e522af99734f.js"></script>
@@ -220,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 <a title="X" href="https://x.com/icyveins"><span class="sprite_social sprite_social_twitter"></span></a>
                 <a title="Youtube" href="https://www.youtube.com/channel/UCTs3du1OXMl0tTXiABbLbdA"><span class="sprite_social sprite_social_youtube"></span></a>
                 <a title="News Feed" href="//www.icy-veins.com/feed.atom"><span class="sprite_social sprite_social_feed"></span></a>
-                <a title="E-mail Us" href="/cdn-cgi/l/email-protection#a6c5c9c8d2c7c5d2e6cfc5df8bd0c3cfc8d588c5c9cb"><span class="sprite_social sprite_social_email"></span></a>
+                <a title="E-mail Us" href="/cdn-cgi/l/email-protection#2a4945445e4b495e6a434953075c4f43445904494547"><span class="sprite_social sprite_social_email"></span></a>
                 <a title="TikTok" href="https://www.tiktok.com/@icy.veins"><span class="sprite_social sprite_social_tiktok"></span></a>
               </div>
             </li>
@@ -2234,16 +2244,16 @@ and is the author of <a href="https://tanknotes.com/">TankNotes</a>. He plays al
 tanks and is a "Useful Minion" for the <a href="https://discord.gg/acherus">Acherus Death Knight Discord</a>.
 You can follow him on <a href="https://twitter.com/Cetraben_">Twitter</a>.</p>
 </div>
-<div class="premium_box" id="premium_box_2">
+<div class="premium_box" id="premium_box_1">
   <a href="https://www.icy-veins.com/forums/premium">
     <span class="premium_box_image"></span>
     <span class="premium_box_text">SUPPORT OUR WRITERS</span>
   </a>
 </div>
 <script>
-  document.querySelectorAll("#premium_box_2 a, #premium_box_2 a span").forEach(function(item, index) {
+  document.querySelectorAll("#premium_box_1 a, #premium_box_1 a span").forEach(function(item, index) {
     item.addEventListener("click", function(event) {
-      writeToLocalStorage('premium_origin', JSON.stringify({'type': 'box', 'value': '2', 'date': new Date()}));
+      writeToLocalStorage('premium_origin', JSON.stringify({'type': 'box', 'value': '1', 'date': new Date()}));
     });
   });
 </script>
@@ -2289,14 +2299,14 @@ You can follow him on <a href="https://twitter.com/Cetraben_">Twitter</a>.</p>
     <span>LATEST NEWS</span>
   </div>
   <ul>
-    <li><a href="//www.icy-veins.com/wow/news/hunter-mythic-gnarloot-solo/" title="Hunter Mythic Gnarloot Solo">Hunter Mythic Gnarloot Solo</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/a-diggers-dream-8-disturbed-earth-in-one-screenshot/" title="A Diggers Dream: 8 Disturbed Earth in One Screenshot">A Diggers Dream: 8 Disturbed Earth in One Screenshot</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/how-many-players-have-the-new-90-brutosaur-and-just-how-much-did-blizzard-make-off-the-single-mount/" title="HOW Many Players Have the New $90 Brutosaur?! And Just How Much Did Blizzard Make Off the Single Mount?">HOW Many Players Have the New $90 Brutosaur?! And Just How Much Did Blizzard Make Off the Single Mount?</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/the-perfect-december-outfit-murloc-onesie-and-mushroom-hat-combo/" title="The Perfect December Outfit: Murloc Onesie and Mushroom Hat Combo!">The Perfect December Outfit: Murloc Onesie and Mushroom Hat Combo!</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/festivities-in-orgrimmar-a-unique-holiday-celebration/" title="Festivities in Orgrimmar: A “Unique” Holiday Celebration">Festivities in Orgrimmar: A “Unique” Holiday Celebration</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/war-within-season-1-mythic-dps-log-rankings-week-10-5/" title="War Within Season 1 Mythic+ DPS Log Rankings, Week 10.5">War Within Season 1 Mythic+ DPS Log Rankings, Week 10.5</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/coral-stalker-waveray-returning-in-patch-11-0-7/" title="Coral-Stalker Waveray Returning in Patch 11.0.7">Coral-Stalker Waveray Returning in Patch 11.0.7</a></li>
-    <li><a href="//www.icy-veins.com/wow/news/guest-relations-secret-event-a-masterpiece-loved-by-secret-solvers/" title="“Guest Relations” Secret Event: A Masterpiece Loved by Secret Solvers">“Guest Relations” Secret Event: A Masterpiece Loved by Secret Solvers</a></li>
+    <li><a href="//www.icy-veins.com/wow/news/10-alts-worth-of-profession-materials-gathered-into-one-warbank/" title="10 Alts-Worth of Profession Materials Gathered Into One Warbank">10 Alts-Worth of Profession Materials Gathered Into One Warbank</a></li>
+    <li><a href="//www.icy-veins.com/wow-classic/news/season-of-discovery-hotfixes-december-4th/" title="Season of Discovery Hotfixes: December 4th">Season of Discovery Hotfixes: December 4th</a></li>
+    <li><a href="//www.icy-veins.com/wow-classic/news/tier-2-and-tier-1-set-bonuses-now-fully-switchable-in-season-of-discovery/" title="Tier 2 and Tier 1 Set Bonuses Now Fully Switchable in Season of Discovery">Tier 2 and Tier 1 Set Bonuses Now Fully Switchable in Season of Discovery</a></li>
+    <li><a href="//www.icy-veins.com/wow/news/defying-the-mythic-odds-with-brewmaster-double-chesting-all-10s/" title="Defying the Mythic+ Odds With Brewmaster: Double Chesting All +10s">Defying the Mythic+ Odds With Brewmaster: Double Chesting All +10s</a></li>
+    <li><a href="//www.icy-veins.com/wow/news/war-within-season-1-mythic-dps-log-rankings-week-11/" title="War Within Season 1 Mythic+ DPS Log Rankings, Week 11">War Within Season 1 Mythic+ DPS Log Rankings, Week 11</a></li>
+    <li><a href="//www.icy-veins.com/wow/news/the-siren-isles-update/" title="Everything You Need to Know About the Siren Isle Update">Everything You Need to Know About the Siren Isle Update</a></li>
+    <li><a href="//www.icy-veins.com/wow/news/unlock-wow-in-game-rewards-by-purchasing-select-razer-products-heres-what-you-need-to-know/" title="Unlock WoW In-Game Rewards by Purchasing Select Razer Products: Here’s What You Need to Know!">Unlock WoW In-Game Rewards by Purchasing Select Razer Products: Here’s What You Need to Know!</a></li>
+    <li><a href="//www.icy-veins.com/wow/news/classic-timewalking/" title="Classic Timewalking Returns: Reputation Buff, Gear Rewards, and Vendor Highlights">Classic Timewalking Returns: Reputation Buff, Gear Rewards, and Vendor Highlights</a></li>
   </ul>
   <span class="box_divider"></span>
 </div>
@@ -2308,11 +2318,11 @@ You can follow him on <a href="https://twitter.com/Cetraben_">Twitter</a>.</p>
     <span>RECENT FORUM POSTS</span>
   </div>
   <ul>
-    <li><a href="https://www.icy-veins.com/forums/topic/52929-survival-hunter-pve/" title="Survival Hunter PvE">Survival Hunter PvE</a></li>
+    <li><a href="https://www.icy-veins.com/forums/topic/52952-enhancement-shaman-pve/" title="Enhancement Shaman PvE">Enhancement Shaman PvE</a></li>
+<li><a href="https://www.icy-veins.com/forums/topic/52954-affliction-warlock-pve/" title="Affliction Warlock PvE">Affliction Warlock PvE</a></li>
+<li><a href="https://www.icy-veins.com/forums/topic/52929-survival-hunter-pve/" title="Survival Hunter PvE">Survival Hunter PvE</a></li>
 <li><a href="https://www.icy-veins.com/forums/topic/82062-do-elemental-shamans-still-wear-shields/" title="do elemental shamans still wear shields?">do elemental shamans still wear shields?</a></li>
 <li><a href="https://www.icy-veins.com/forums/topic/81925-wows-20th-anniversary-event-guide/" title="WoWs 20th Anniversary Event Guide">WoW's 20th Anniversary Event Guide</a></li>
-<li><a href="https://www.icy-veins.com/forums/topic/82285-vault-survival/" title="Vault Survival">Vault Survival</a></li>
-<li><a href="https://www.icy-veins.com/forums/topic/82255-zekvirs-lair/" title="Zekvirs Lair">Zekvir's Lair</a></li>
 
   </ul>
   <span class="header visit_forums"><a href="https://www.icy-veins.com/forums/" title="Visit Forums"><span>VISIT FORUMS</span> <span class="sprite_box_arrow"></span></a></span>
@@ -2345,11 +2355,11 @@ You can follow him on <a href="https://twitter.com/Cetraben_">Twitter</a>.</p>
             <span class="header">WOW GUIDES</span>
             <ul>
               <li><a href="//www.icy-veins.com/wow/class-guides">Class guides</a></li>
-              <li><a href="//www.icy-veins.com/wow/mythic-overview-and-class-guides-updated-for-bfa-season-4">Mythic+ guides</a></li>
-              <li><a href="//www.icy-veins.com/wow/pvp-class-guides">PvP guides</a></li>
-              <li><a href="//www.icy-veins.com/wow/dragonflight-expansion">Dragonflight guides</a></li>
-              <li><a href="//www.icy-veins.com/wow/shadowlands-dungeons-and-raids-hub">Dungeon &amp; Raid guides</a></li>
-              <li><a href="//www.icy-veins.com/wow/a-guide-to-leveling-in-world-of-warcraft">Leveling guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/latest-mythic-plus-season">Mythic+ guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/latest-pvp-season">PvP guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/the-war-within-patch-11-0-5-content-overview">The War Within guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/war-within-dungeons-guide">Dungeon &amp; Raid guides</a></li>
+              <li><a href="//www.icy-veins.com/wow/war-within-leveling-guide">Leveling guides</a></li>
             </ul>
           </div><div>
             <span class="header">DIABLO IV GUIDES</span>
@@ -2399,7 +2409,7 @@ You can follow him on <a href="https://twitter.com/Cetraben_">Twitter</a>.</p>
             <a title="X" href="https://x.com/icyveins"><span class="sprite_social sprite_social_twitter"></span></a>
             <a title="Youtube" href="https://www.youtube.com/user/icyveinscom"><span class="sprite_social sprite_social_youtube"></span></a>
             <a title="News Feed" href="//www.icy-veins.com/feed.atom"><span class="sprite_social sprite_social_feed"></span></a>
-            <a title="E-mail Us" href="/cdn-cgi/l/email-protection#c3a0acadb7a2a0b783aaa0baeeb5a6aaadb0eda0acae"><span class="sprite_social sprite_social_email"></span></a>
+            <a title="E-mail Us" href="/cdn-cgi/l/email-protection#4625292832272532062f253f6b30232f28356825292b"><span class="sprite_social sprite_social_email"></span></a>
           </div>
         </div>
         <span class="text_color" id="copyright">&copy; 2011-2024 VEDATIS S.A.S.</span>
@@ -2542,5 +2552,5 @@ You can follow him on <a href="https://twitter.com/Cetraben_">Twitter</a>.</p>
   }
 </script>
 
-  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8eca6e770ec9115b',t:'MTczMzMwMDk5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8f1d63f20d8722fc',t:'MTczNDE3MDg4My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
