@@ -56,8 +56,20 @@ vector<build> parseTxtFile (const string& filename) {
     while (getline(buildTextFile, line)) {
         line.erase(0, line.find_first_not_of(" \t"));
         line.erase(line.find_last_not_of(" \t") + 1);
+
+        if (line.empty()) continue;
+
+        if (line.rfind("Build Description: ", 0) == 0) {
+            if (!currentBuild.buildDescription.empty() || !currentBuild.items.empty()) {
+                allBuilds.push_back(currentBuild);
+                currentBuild = build();
+            }
+        }
     }
+
 }
+
+
 
 int main() {
 

@@ -39,3 +39,8 @@ December 4, 2024
 - this step is going to take longer to work out and my methods for achieving it will likely differ from the way I did it for talents.
 - (might also be a good time to take a break and actually play the game more since i am not as high ranked as i used to be.......)
 
+December 15, 2024
+- Been a really long time since i updated this wow. I just finished the build response breakdown and have it saved as a textfile. wanted to make it into a json object right away but it became annoying to do so.
+- next step is to read through text file and structure json file. what i was going to do is have it categorize by slot and then suggest the 1-2 items used that can be attained from raid, m+, crafting, etc.
+- however, this project has kind of exhausted me. spent a lot of time and now i want to do some work on my columbia shuttle project before i let it collect dust. i will probably pick this back up when i get back from my india trip, but it isn't going to take a high priority like it did before.
+- love doing this project, but i want to do something more aerospace oriented. i need to reinforce my understanding of orbital mechs, flight dynamics, the Kalman Filter and more. I also like python more ngl....
