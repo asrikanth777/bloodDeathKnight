@@ -1,304 +1,309 @@
 updated builds (rough draft needs improvement later)
-+++++++++
+Build Description: 
 This list contains the Best in Slot Gear from any source in Season 1 of The War
 Within. It is there as a reference to what is currently the highest performing gear
 available to players.
-+++++++++
----------
+                    
+Item: 
 Gear Type: slot
 Item Name: item
 Item Drop Location: source/note
 
----------
----------
+                 
+Item: 
 Gear Type: Weapon
 Item Name: Anub'arash's Colossal Mandible
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Helm
 Item Name: Soaring Behemoth's Greathelm
 Item Drop Location: The Dawnbreaker 
 
----------
----------
+                 
+Item: 
 Gear Type: Neck
 Item Name: Silken Advisor's Favor
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Shoulder
 Item Name: Exhumed Centurion's Spikes
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Cloak
 Item Name: Wings of Shattered Sorrow
 Item Drop Location: Rasha'nan  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Chest
 Item Name: Exhumed Centurion's Breastplate
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Bracers
 Item Name: Everforged Vambraces
 Item Drop Location: Crafted 
 
----------
----------
+                 
+Item: 
 Gear Type: Gloves
 Item Name: Exhumed Centurion's Gauntlets
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Belt
 Item Name: Everforged Greatbelt
 Item Drop Location: Crafted 
 
----------
----------
+                 
+Item: 
 Gear Type: Legs
 Item Name: Exhumed Centurion's Chausses
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Boots
 Item Name: Shattershell Greaves
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Ring #1
 Item Name: Seal of the Poisoned Pact
 Item Drop Location: Queen Ansurek  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Ring #2
 Item Name: Ritual Commander's Ring
 Item Drop Location: The Necrotic Wake 
 
----------
----------
+                 
+Item: 
 Gear Type: Trinket #1
 Item Name: Ara-Kara Sacbrood
 Item Drop Location: Ara-Kara, City of Echoes 
 
----------
----------
+                 
+Item: 
 Gear Type: Trinket #2
 Item Name: Spare Meat Hook
 Item Drop Location: The Necrotic Wake 
 
----------
-===========
+                 
+---------------------
+Build Description: 
 This list serves as a "My raid leader needs me to provide a wishlist, here
 is the wishlist" item list. If you were to assemble the best gear set from
 Nerub-ara Palace specifically, and no other source, this is what you
 would wear.
----------
+                  
+Item: 
 Gear Type: slot
 Item Name: item
 Item Drop Location: source/note
 
----------
----------
+                 
+Item: 
 Gear Type: Weapon
 Item Name: Anub'arash's Colossal Mandible
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Helm
 Item Name: Visor of the Ascended Captain
 Item Drop Location: Sikran  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Neck
 Item Name: Silken Advisor's Favor
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Shoulder
 Item Name: Exhumed Centurion's Spikes
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Cloak
 Item Name: Wings of Shattered Sorrow
 Item Drop Location: Rasha'nan  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Chest
 Item Name: Exhumed Centurion's Breastplate
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Bracers
 Item Name: Ravaged Lamplighter's Manacles
 Item Drop Location: Rasha'nan  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Gloves
 Item Name: Exhumed Centurion's Gauntlets
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Belt
 Item Name: Greatbelt of the Hungerer
 Item Drop Location: Ulgrax the Devourer in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Legs
 Item Name: Exhumed Centurion's Chausses
 Item Drop Location: Tier Set: Catalyst / Vault / Raid 
 
----------
----------
+                 
+Item: 
 Gear Type: Boots
 Item Name: Shattershell Greaves
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Ring #1
 Item Name: Seal of the Poisoned Pact
 Item Drop Location: Queen Ansurek  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Ring #2
 Item Name: Writhing Ringworm
 Item Drop Location: Broodtwister Ovi'nax  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Trinket #1
 Item Name: Skyterror's Corrosive Organ
 Item Drop Location: Silken Court  in Mythic  Nerub-ar Palace 
 
----------
----------
+                 
+Item: 
 Gear Type: Trinket #2
 Item Name: Sikran's Endless Arsenal
 Item Drop Location: Sikran  in Mythic  Nerub-ar Palace 
 
----------
-===========
+                 
+---------------------
+Build Description: 
 This list contains the best items available per slot from Mythic+. It is there
 to provide you with a quick list of easily farmable gear if you need something in a
 specific slot.
----------
+                  
+Item: 
 Gear Type: slot
 Item Name: item
 Item Drop Location: source/note
 
----------
----------
+                 
+Item: 
 Gear Type: Weapon
 Item Name: Dismembered Submersible Claw
 Item Drop Location: Siege of Boralus 
 
----------
----------
+                 
+Item: 
 Gear Type: Helm
 Item Name: Soaring Behemoth's Greathelm
 Item Drop Location: The Dawnbreaker 
 
----------
----------
+                 
+Item: 
 Gear Type: Neck
 Item Name: Trailspinner Pendant
 Item Drop Location: Mists of Tirna Scithe 
 
----------
----------
+                 
+Item: 
 Gear Type: Shoulder
 Item Name: Earthshape Pauldrons
 Item Drop Location: Grim Batol 
 
----------
----------
+                 
+Item: 
 Gear Type: Cloak
 Item Name: Swarmcaller's Shroud
 Item Drop Location: Ara-Kara, City of Echoes 
 
----------
----------
+                 
+Item: 
 Gear Type: Chest
 Item Name: Dark Priest's Carapace
 Item Drop Location: The Dawnbreaker 
 
----------
----------
+                 
+Item: 
 Gear Type: Bracers
 Item Name: Bracers of Umbral Mending
 Item Drop Location: Grim Batol 
 
----------
----------
+                 
+Item: 
 Gear Type: Gloves
 Item Name: Machinist's Searing Handguards
 Item Drop Location: The Stonevault 
 
----------
----------
+                 
+Item: 
 Gear Type: Belt
 Item Name: Cannoneer's Toolbelt
 Item Drop Location: Siege of Boralus 
 
----------
----------
+                 
+Item: 
 Gear Type: Legs
 Item Name: Legplates of Broken Trust
 Item Drop Location: The Stonevault 
 
----------
----------
+                 
+Item: 
 Gear Type: Boots
 Item Name: Ichor-Stained Sollerets
 Item Drop Location: City of Threads 
 
----------
----------
+                 
+Item: 
 Gear Type: Ring #1
 Item Name: Band of the Roving Scalawag
 Item Drop Location: Siege of Boralus 
 
----------
----------
+                 
+Item: 
 Gear Type: Ring #2
 Item Name: Ritual Commander's Ring
 Item Drop Location: The Necrotic Wake 
 
----------
----------
+                 
+Item: 
 Gear Type: Trinket #1
 Item Name: Ara-Kara Sacbrood
 Item Drop Location: Ara-Kara, City of Echoes 
 
----------
----------
+                 
+Item: 
 Gear Type: Trinket #2
 Item Name: Spare Meat Hook
 Item Drop Location: The Necrotic Wake 
 
----------
-===========
+                 
+---------------------
+Build Description: 

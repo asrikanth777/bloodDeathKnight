@@ -220,17 +220,19 @@ int main() {
     int itemTextCount = 0;
     if (bestBuildsSheet.is_open()) {
         bestBuildsSheet << "updated builds (rough draft needs improvement later)" << endl;
-        bestBuildsSheet << "+++++++++" << endl;
+        bestBuildsSheet << "Build Description: " << endl;
         bestBuildsSheet << buildDesc[0] << endl;
-        bestBuildsSheet << "+++++++++" << endl;
+        bestBuildsSheet << "                    " << endl;
         for (const item& itm: finalItems) {
-            bestBuildsSheet << "---------" << endl;
+            bestBuildsSheet << "Item: " << endl;
             bestBuildsSheet << itm << endl;
-            bestBuildsSheet << "---------" << endl;
+            bestBuildsSheet << "                 " << endl;
             itemTextCount++;
             if (itemTextCount % 16 == 0) {
-                bestBuildsSheet << "===========" << endl;
+                bestBuildsSheet << "---------------------" << endl;
+                bestBuildsSheet << "Build Description: " << endl;
                 bestBuildsSheet << buildDesc[itemTextCount/16] << endl;
+                bestBuildsSheet << "                  " << endl;
             }
         }
         bestBuildsSheet.close();
